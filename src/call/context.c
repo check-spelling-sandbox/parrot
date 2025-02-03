@@ -770,7 +770,7 @@ Parrot_pcc_get_regs_used(SHIM_INTERP, ARGIN(const PMC *ctx), int type)
 
 =item C<Regs_ni* Parrot_pcc_get_regs_ni(PARROT_INTERP, const PMC *ctx)>
 
-Get pointer to FLOANFAL and INTVAL registers.
+Get pointer to FLOATVAL and INTVAL registers.
 
 =cut
 
