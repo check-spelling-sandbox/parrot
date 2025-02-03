@@ -733,7 +733,7 @@ Returns the caught exception without clearing the call object. This is
 currently needed because HLL authors use get_params to fetch the exception,
 but get_params clears the call object. So we can't use get_params in PCT
 to get the exception object without disturbing the HLL code.
-This op will be removed again when PCT offers another mechansim to get
+This op will be removed again when PCT offers another mechanism to get
 the exception and the HLLs switched to it.
 
 =cut
