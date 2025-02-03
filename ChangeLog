@@ -2914,7 +2914,7 @@
      + PDD15 "Objects" - details on roles, objects, and classes added
      + PDD22 "I/O" - added async ops and Status PMC details
     - Documentation:
-     + Added guides for Metacommitter, Relase Manager, and Cage Cleaner roles
+     + Added guides for Metacommitter, Release Manager, and Cage Cleaner roles
     - Implementation:
      + Object, Class, Role, and Attribute PMC implementation has begun
      + Perl 5 module "Parrot::Embed" now compiles and links on all platforms
