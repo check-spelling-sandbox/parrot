@@ -632,11 +632,11 @@ done:
     .return (req)
 .end
 
-=item send_respons(resp)
+=item send_response(resp)
 
 Send the response back to the client. Argument is a response object.
 
-=item send_file_respons(url)
+=item send_file_response(url)
 
 Slurp the C<url> and send the response back to the client.
 TODO doc CGI urls.

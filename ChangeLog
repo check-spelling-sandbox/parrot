@@ -6617,7 +6617,7 @@
 2002-01-10 16:54  ajgough
 
     * resources.c: Made free_string check that there was a string to
-    free.  In reponse to a bug spotted by Joshua Nye.
+    free.  In response to a bug spotted by Joshua Nye.
 
 2002-01-09 22:44  dan
 
