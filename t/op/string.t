@@ -93,7 +93,7 @@ Tests Parrot string registers and operations.
     repeat_s_s_sc_i_ic()
     exception_repeat_oob()
     exception_repeat_oob_repeat_p_p_p()
-    exception_repeat_oob_repeate_p_p_i()
+    exception_repeat_oob_repeated_p_p_i()
     encodingname_oob()
     index_three_arg_form()
     index_four_arg_form()
@@ -851,7 +851,7 @@ WHILE:
     .exception_is( 'Cannot repeat with negative arg' )
 .end
 
-.sub exception_repeat_oob_repeate_p_p_i
+.sub exception_repeat_oob_repeated_p_p_i
     push_eh handler
     $P0 = new ['String']
     $P1 = new ['String']
