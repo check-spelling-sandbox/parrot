@@ -7737,7 +7737,7 @@
       * Parrot/BuildUtil.pm: New file for reading in and validating the
     contents of
         the new VERSION file. Other build utilities could go here in
-    futuer.
+    future.
 
       * Parrot/OpsFile.pm:
 
