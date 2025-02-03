@@ -5,7 +5,7 @@
 ##
 var width          = 40    # width of "board"
 var height         = 20    # height of "board"
-var generation     = 1     # generation couner
+var generation     = 1     # generation counter
 var numgenerations = 50    # how often should we evolve?
 
 ## initialize board to all zeroes
