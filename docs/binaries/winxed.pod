@@ -16,7 +16,7 @@ for tool, library and language development.
 Winxed is JavaScript-ish. If you are looking for something more Perl-ish,
 you want NQP.
 
-=head2 Command line otions
+=head2 Command line options
 
     '-c'        : is used to compile to pir.
     '-e==s'     : is used to evaluate.
