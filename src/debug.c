@@ -881,7 +881,7 @@ const DebuggerCmdList DebCmdList [] = {
 
 =item C<static const DebuggerCmd * get_cmd(const char **cmd)>
 
-Parse the debuggger command indicated by C<**cmd>.  Return a pointer to the
+Parse the debugger command indicated by C<**cmd>.  Return a pointer to the
 matching function for known commands, or a NULL pointer otherwise.
 
 =cut

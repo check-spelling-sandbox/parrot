@@ -2821,7 +2821,7 @@
      + implemented overridding of vtable methods by PDD15 classes
      + improved PDD15 support for 'new', 'instantiate', and others
      + added makefile targets to ease core and HLL makefile regeneration
-     + updated parrot dubugger, "pdb", to allow loading of commands from file
+     + updated parrot debugger, "pdb", to allow loading of commands from file
     - Misc:
      + many bugfixes, enhancements, documentation, and coding standard updates
 

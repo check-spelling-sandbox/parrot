@@ -168,7 +168,7 @@ parseflags(PARROT_INTERP, int *argc, char **argv[])
             break;
 
           case '.':  /* Give Windows Parrot hackers an opportunity to
-                      * attach a debuggger. */
+                      * attach a debugger. */
             fgetc(stdin);
             break;
           case OPT_GC_DEBUG:
