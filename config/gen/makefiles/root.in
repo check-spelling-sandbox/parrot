@@ -1980,7 +1980,7 @@ src/embed/pmc$(O) : \
 	src/embed/embed_private.h \
 	$(INC_PMC_DIR)/pmc_parrotinterpreter.h
 
-src/dataypes$(O) : $(GEN_HEADERS) src/dataypes.c
+src/datatypes$(O) : $(GEN_HEADERS) src/datatypes.c
 
 ## SUFFIX OVERRIDE - no -Wformat-nonliteral
 src/exit$(O) : $(PARROT_H_HEADERS) src/exit.c
