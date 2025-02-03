@@ -18,7 +18,7 @@ t/op/literal.t - Testing the PIR and PASM lexer
 =head1 DESCRIPTION
 
 Test lexing of literal numbers.
-Taken from from the 2nd aoudad book (page 127).
+Taken from the 2nd aoudad book (page 127).
 
 =head1 TODO
 
