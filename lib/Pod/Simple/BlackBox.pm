@@ -1863,7 +1863,7 @@ sub _treelet_from_formatting_codes {
         #     at most 1 leading/trailing whitespace, why not all of it?
 
     } else {
-      # should never ever ever ever happen
+      # should never ever, ever, ever happen
       DEBUG and print "AYYAYAAAAA at line ", __LINE__, "\n";
       die "SPORK 512512!";
     }
