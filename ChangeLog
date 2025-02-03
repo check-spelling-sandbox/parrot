@@ -11226,7 +11226,7 @@
 
 2001-09-25 21:44  thgibbs
 
-    * t/op/trans.t: Removed loops in transcendtal op test.
+    * t/op/trans.t: Removed loops in transcendental op test.
 
 2001-09-25 10:12  simon
 

@@ -3,7 +3,7 @@
 
 =head1 NAME
 
-t/op/trans.t - Trancendental Mathematical Ops
+t/op/trans.t - Transcendental Mathematical Ops
 
 =head1 SYNOPSIS
 
