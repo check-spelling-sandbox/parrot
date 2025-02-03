@@ -41,7 +41,7 @@ L<http://cpanel.net>
 
 =item  * Erin Schoenhals
 
-Provided her old Mac Powerbook G4 for big-endian testing and native_pbc updates.
+Provided her old Mac PowerBook G4 for big-endian testing and native_pbc updates.
 
 =back
 
