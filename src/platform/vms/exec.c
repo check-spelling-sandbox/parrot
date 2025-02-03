@@ -2259,7 +2259,7 @@ int_rmsexpand
 =item C<static unsigned long int setup_cmddsc(const char *incmd, int check_img,
 int *suggest_quote, struct dsc$descriptor_s **pvmscmd)>
 
-Setup a command descriptor to call a DCL command or excutable image.
+Setup a command descriptor to call a DCL command or executable image.
 
 =cut
 
