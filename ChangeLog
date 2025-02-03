@@ -8247,7 +8247,7 @@
 
 2001-12-19 19:11  ajgough
 
-    * t/op/debuginfo.t: Added C<end> ops to debuginfo.t, as thier
+    * t/op/debuginfo.t: Added C<end> ops to debuginfo.t, as their
     non-being was causing Irix "issues".
 
 2001-12-19 03:37  jgoff
