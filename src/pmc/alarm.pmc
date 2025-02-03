@@ -124,7 +124,7 @@ Returns the number associated with C<key>.
 
 =item C<FLOATVAL get_number()>
 
-Having the alarm numify to the time is convienient for sorting.
+Having the alarm numify to the time is convenient for sorting.
 
 =cut
 
