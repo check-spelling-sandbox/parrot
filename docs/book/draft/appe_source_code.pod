@@ -8,7 +8,7 @@ copy of the source code. If you just want to try it out--experiment
 with a few features and see how it feels--the best option is to
 download the most recent point release for your system. Point releases
 are usually packaged up for easy download and install for various
-platforms, including Windows, Debian, and Redhat. Point releases are
+platforms, including Windows, Debian, and Red Hat. Point releases are
 available from U<http://www.parrot.org/download>.
 
 If you plan to get involved in development, you'll want to check out
