@@ -320,8 +320,8 @@ typedef struct _pipe           Pipe;
 typedef struct _pipe*         pPipe;
 typedef struct pipe_details    Info;
 typedef struct pipe_details*  pInfo;
-typedef struct _tochildbuf      CBuf;
-typedef struct _tochildbuf*    pCBuf;
+typedef struct _tochildbuf     CBuf;
+typedef struct _tochildbuf*   pCBuf;
 
 struct _iosb {
     unsigned short status;
