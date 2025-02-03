@@ -76,7 +76,7 @@ To display detailed description of specific project use :
 
     info    <project>
 
-To dispay JSON metadata for specific project use :
+To display JSON metadata for specific project use :
 
     metadata    <project>
 
