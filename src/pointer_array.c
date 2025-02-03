@@ -46,7 +46,7 @@ Parrot_pa_new(SHIM_INTERP)
 
 =item C<void Parrot_pa_destroy(PARROT_INTERP, Parrot_Pointer_Array *self)>
 
-Destroy Pointer_Arra and free allocated memory.
+Destroy Pointer_Array and free allocated memory.
 
 =cut
 

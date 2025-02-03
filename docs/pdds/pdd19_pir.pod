@@ -459,7 +459,7 @@ file.
 For instance, after compilation of the sub 'init', that sub is executed
 immediately (hence the C<:immediate> modifier). Instead of storing the sub
 'init' in the constants table, the value returned by 'init' is stored,
-which in this example is a FixedIntegerArrray.
+which in this example is a FixedIntegerArray.
 
 =begin PIR
 
