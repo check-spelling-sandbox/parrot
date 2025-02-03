@@ -966,7 +966,7 @@ When adding a role to a class, you can optionally specify that specific
 methods are to be aliased to different names within the class. This is
 done with the optional C<alias> named parameter. The parameter takes
 hash of strings, where the key is a method name in the role, and the
-value is the name it will have in to the class. (This is also sometimes
+value is the name it will have in the class. (This is also sometimes
 used for conflict resolution.)
 
 If you C<alias> a method, it won't automatically C<exclude> the original
