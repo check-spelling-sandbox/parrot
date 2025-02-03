@@ -23,7 +23,7 @@ Accessor for a single value during hash iteration, a single (key,value) pair.
 
 pmclass HashIteratorKey no_ro auto_attrs {
     ATTR Hash        *parrot_hash; /* Underlying parrot's hash */
-    ATTR HashBucket  *bucket;      /* Current bucket from HashItertor */
+    ATTR HashBucket  *bucket;      /* Current bucket from HashIterator */
 
 /*
 
