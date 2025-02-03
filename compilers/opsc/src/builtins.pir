@@ -3,7 +3,7 @@
 
 =head1 Builtins
 
-Variour helper builtins.
+Various helper builtins.
 
 =cut
 .namespace []
