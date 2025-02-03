@@ -57,7 +57,7 @@ SKIP: {
 
 ## 1
 ## Check that the library can be loaded and initialized,
-## diganose the failure otherwise.
+## diagnose the failure otherwise.
     pir_output_is(<<"CODE", <<'OUT', 'libpcre loading');
 
 .include 'iglobals.pasm'
