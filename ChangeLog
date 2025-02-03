@@ -7853,7 +7853,7 @@
 2001-12-28 01:19  gregor
 
     * examples/mops/mops.c:
-    Some people's picky compilers don't like us redefineing time(), so
+    Some people's picky compilers don't like us redefining time(), so
     we call it time_n().  :)
 
 2001-12-28 00:28  gregor
