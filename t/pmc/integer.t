@@ -69,7 +69,7 @@ Tests the Integer PMC.
 .end
 
 # Get INTVAL max and min values from sysinfo only if the sys_ops lib is
-# available and leaving them as zero otherwise (that happens during corestes,
+# available and leaving them as zero otherwise (that happens during coretest,
 # for example).
 # The test that needs the values are skipped based on this.
 .sub get_max_min
