@@ -14,7 +14,7 @@ use Parrot::Config;
 
 t/src/embed/pmc.t - Parrot API PMC tests
 
-=head1 SYNPOSIS
+=head1 SYNOPSYS
 
     % prove t/src/embed/pmc.t
 

@@ -19,7 +19,7 @@ plan skip_all => 'src/parrot_config.o does not exist' unless -e catfile("src", $
 
 t/src/atomic.t - Parrot pointer array operations
 
-=head1 SYNPOSIS
+=head1 SYNOPSYS
 
     % prove t/src/pointer_array.t
 

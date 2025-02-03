@@ -14,7 +14,7 @@ use Parrot::Config;
 
 t/src/embed/strings.t - Parrot API string operations
 
-=head1 SYNPOSIS
+=head1 SYNOPSYS
 
     % prove t/src/embed/strings.t
 
