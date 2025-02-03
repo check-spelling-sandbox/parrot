@@ -200,7 +200,7 @@ surboutine is fully constructed but not attached to interpreter.
             attrs->comp_flags = flags & SUB_COMP_FLAG_MASK;
         }
 
-        /* In order to create Sub dynamicaly we have to set PObj flags */
+        /* In order to create Sub dynamically we have to set PObj flags */
         field = CONST_STRING(INTERP, "pf_flags");
         if (VTABLE_exists_keyed_str(INTERP, init, field)) {
             const UINTVAL flags = (UINTVAL)VTABLE_get_integer_keyed_str(INTERP, init, field);
