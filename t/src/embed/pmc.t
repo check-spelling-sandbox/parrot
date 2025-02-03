@@ -197,7 +197,7 @@ int main(int argc, char* argv[])
 
 CODE
 a
-I an a string.
+I am a string.
 OUTPUT
 
 c_output_is( <<'CODE', <<'OUTPUT', "PMC lookup/instantiation" );
