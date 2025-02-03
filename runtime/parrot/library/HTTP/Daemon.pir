@@ -735,7 +735,7 @@ SERVE_blob:
     goto DONE
 
 SERVE_docroot:
-    file_content = "Please go to <a href='docs/html/index.html'>Parrot Document ation</a>."
+    file_content = "Please go to <a href='docs/html/index.html'>Parrot Documentation</a>."
     length len, file_content
     temp = to_string (len)
     resp.'code'(301)
