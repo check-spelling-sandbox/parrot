@@ -1396,7 +1396,7 @@ postit_end:
     $I0 = hash['foo']
     is($I0, 42, 'Intval preserved with datatype int')
     $I0 = hash['bar']
-    is($I0, 21285, 'Floatval trunkated to int')
+    is($I0, 21285, 'Floatval truncated to int')
     $I0 = hash['baz']
     is($I0, 0, 'String casted to int')
 
