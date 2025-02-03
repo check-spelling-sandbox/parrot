@@ -3295,7 +3295,7 @@ PDB_assign(PARROT_INTERP, ARGIN(const char *command))
     Interp * const debugger = pdb ? pdb->debugger : interp;
     Interp * const debugee  = pdb ? pdb->debugee  : interp;
 
-    /* smallest valid commad length is 4, i.e. "I0 1" */
+    /* smallest valid command length is 4, i.e. "I0 1" */
     if (strlen(command) < 4) {
         Parrot_io_eprintf(debugger, "Must give a register number and value to assign\n");
         return;

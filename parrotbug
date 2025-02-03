@@ -602,7 +602,7 @@ EOT
 }
 
 
-# Check whether actions have been provided on comand-line, otherwise
+# Check whether actions have been provided on command-line, otherwise
 # prompt for what to do with bug report.
 sub what_next {
     dump_report() if $opts{dump};

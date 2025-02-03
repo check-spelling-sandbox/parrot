@@ -8,7 +8,7 @@ examples/mops/README.pod - Readme file for mops example command lines.
 
 =head1 DESCRIPTION
 
-Here are example comannd lines:
+Here are example command lines:
 
 =over 4
 
