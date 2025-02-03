@@ -107,7 +107,7 @@ This PIR code implements various oplib tests.
     is($I0, 0, "got end opcode data keyed pmc")
 
     $I0 = issame op, op2
-    $S0 = "Implement cacheing, Opcode.is_same, or change comparison"
+    $S0 = "Implement caching, Opcode.is_same, or change comparison"
     todo($I0, "got same result from both ways", $S0)
 
     $I1 = op
