@@ -693,7 +693,7 @@ sub href_path {
 
 =item C<return_page_title()>
 
-Return the title in $page_title from do_begining
+Return the title in $page_title from do_beginning
 
 =cut
 
