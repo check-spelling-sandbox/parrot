@@ -125,7 +125,7 @@ The format for entries in F<CREDITS> is defined at the top of the file.
 
 =head1 HOW TO SUBMIT A PATCH
 
-The preferrred method to submit matches to Parrot is as pull requests via
+The preferred method to submit matches to Parrot is as pull requests via
 github. Please follow the instructions at
 L<http://help.github.com/send-pull-requests/>.
 
