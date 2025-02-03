@@ -156,7 +156,7 @@ This means that even in the most normalized Unicode form, string manipulation
 code must always assume a variable-byte encoding, and use expensive
 lookaheads. The cost is incurred on every operation, though the particular
 string operated on might not contain combining characters. It's particularly
-noticeable in parsing and regular expres699sion matches, where backtracking
+noticeable in parsing and regular expression matches, where backtracking
 operations may re-traverse the characters of a simple string hundreds of
 times.
 
