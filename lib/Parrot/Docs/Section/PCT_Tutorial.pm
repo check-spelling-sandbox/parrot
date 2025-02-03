@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Parrot::Docs::Section::PCT_Tutorial - Tutorial of Parrot Comiler Tools
+Parrot::Docs::Section::PCT_Tutorial - Tutorial of Parrot Compiler Tools
 
 =head1 SYNOPSIS
 
