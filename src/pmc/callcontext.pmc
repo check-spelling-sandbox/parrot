@@ -789,7 +789,7 @@ Returns the short signature for the CallContext.
             }
         }
         /* TODO Add named args to signature */
-        /* After fixind build_MMD_type_tuple to use raw arguments instead of signature */
+        /* After fixing build_MMD_type_tuple to use raw arguments instead of signature */
 
         SET_ATTR_short_sig(INTERP, SELF, res);
 
