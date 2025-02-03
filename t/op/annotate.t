@@ -180,7 +180,7 @@ Test various use cases of the annotate directive.
     $P0 = getinterp
     $P1 = $P0['annotations'; 1]
     $S0 = $P1['file']
-    'is'($S0, 'answer.p6', 'annotations for caller sub returend with level 1')
+    'is'($S0, 'answer.p6', 'annotations for caller sub returned with level 1')
     $I0 = $P1['line']
     'is'($I0, 43, 'annotations from caller sub returned at point of call with level 1')
     'test_outer'()
@@ -191,7 +191,7 @@ Test various use cases of the annotate directive.
     $P0 = getinterp
     $P1 = $P0['outer'; 'annotations'; 1]
     $S0 = $P1['file']
-    'is'($S0, 'answer.p6', 'annotations for outer sub returend with level 1')
+    'is'($S0, 'answer.p6', 'annotations for outer sub returned with level 1')
     $I0 = $P1['line']
     'is'($I0, 43, 'annotations from outer sub returned at point of call with level 1')
 .end

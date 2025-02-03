@@ -172,7 +172,7 @@ v PQfreemem p
 #####
 
 
-# First arg's a neturned char pointer. Can't do that yet
+# First arg's a returned char pointer. Can't do that yet
 # i PQescapeString t t i
 
 t PQescapeBytea t l 4
