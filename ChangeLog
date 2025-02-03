@@ -3378,7 +3378,7 @@
      - BigInt, Complex, *Array, Slice, Enumerate, None PMC classes
      - IA64 and hppa JIT support
      - Tons of fixes, improvements, new tests, and documentation updates.
-    A lot is unfinished and keeps changing. Nethertheless Parrot is stable
+    A lot is unfinished and keeps changing. Nevertheless Parrot is stable
     and usable at the surface, while internals are moving.
 
 2004-10-09    leo
