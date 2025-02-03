@@ -150,7 +150,7 @@ E:
     # Walk the array in pseudo-random order
     # Pick a sample size $I4 and another number $I2, such that
     ############################################################
-    ##### Plase rewrite this with ascii chars, it got unreadable
+    ##### Please rewrite this with ascii chars, it got unreadable
     ##### by editing with mixed charsets.
     #  n: n > 0  $I2  % $I4 = 1  n % $I4 = 0
     ############################################################
