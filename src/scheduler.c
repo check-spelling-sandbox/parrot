@@ -203,7 +203,7 @@ Parrot_cx_set_scheduler_alarm(PARROT_INTERP)
 =item C<void Parrot_cx_next_task(PARROT_INTERP, PMC *scheduler)>
 
 Run the task at the head of the task queue until it ends or is
-pre-empted.
+preempted.
 
 =cut
 
@@ -265,7 +265,7 @@ Parrot_cx_check_scheduler(PARROT_INTERP, ARGIN(opcode_t *next))
 opcode_t *next)>
 
 Checks to see if any tasks need to be scheduled or if the current task
-needs to be pre-empted.
+needs to be preempted.
 
 =cut
 
@@ -363,7 +363,7 @@ Parrot_cx_stop_task(PARROT_INTERP, ARGIN(opcode_t *next))
 =item C<opcode_t* Parrot_cx_preempt_task(PARROT_INTERP, PMC *scheduler, opcode_t
 *next)>
 
-Pre-empt the current task. It goes on the foot of the task queue,
+Preempt the current task. It goes on the foot of the task queue,
 and then we jump all the way back to the task scheduling loop.
 
 =cut

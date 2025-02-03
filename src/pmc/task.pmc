@@ -159,7 +159,7 @@ code as the first argument.
 
         PARROT_ASSERT(! PMC_IS_NULL(task->code));
 
-        /* If a task is pre-empted, this will be set again. */
+        /* If a task is preempted, this will be set again. */
         TASK_in_preempt_CLEAR(SELF);
 
         if (! task->killed) {

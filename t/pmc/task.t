@@ -136,7 +136,7 @@ again:
 .end
 
 .sub exit0
-    say "ok 8 pre-empt and exit"
+    say "ok 8 preempt and exit"
     exit 0
 .end
 

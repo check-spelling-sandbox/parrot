@@ -74,7 +74,7 @@ typedef enum {
 #define TASK_active_CLEAR(o) TASK_flag_CLEAR(active, o)
 
 /* Flag is set iff the runloop is ending because the current task has
- * been pre-empted but is not yet done running */
+ * been preempted but is not yet done running */
 #define TASK_in_preempt_TEST(o)  TASK_flag_TEST(in_preempt, o)
 #define TASK_in_preempt_SET(o)   TASK_flag_SET(in_preempt, o)
 #define TASK_in_preempt_CLEAR(o) TASK_flag_CLEAR(in_preempt, o)

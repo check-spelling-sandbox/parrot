@@ -57,7 +57,7 @@ understanding of all the different branches your program flow can take
 in response to standard input.  Once you know that, you construct a list
 of dummy data that will be fed to each test at the points the program,
 when put into production, would normally prompt for operator input.
-This list of dummy data 'pre-empts' standard input via a tie of
+This list of dummy data 'preempts' standard input via a tie of
 filehandle STDIN; hence, the module's name.
 
 =head1 USAGE

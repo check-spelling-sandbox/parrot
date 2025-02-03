@@ -35,7 +35,7 @@ inspects various paths, and paths that are controlled by C<%ENV> to
 find relevant documentation for "perldoc".
 
 And because of this, it is a little security conscious, and
-pre-emptively drops root to UID=nobody
+preemptively drops root to UID=nobody
 
 But Parrot is not using this feature of C<perldoc>.
 Parrot is simply using C<perldoc> as a content filter to extract
