@@ -172,7 +172,7 @@ method emit_c_source_file($fh) {
     self.trans.emit_op_lookup(self, $fh);
 
     self._emit_init_func($fh);
-    self._emit_dymanic_lib_load($fh);
+    self._emit_dynamic_lib_load($fh);
     self._emit_coda($fh);
 }
 
@@ -266,7 +266,7 @@ method _emit_init_func($fh) {
 |);
 }
 
-method _emit_dymanic_lib_load($fh) {
+method _emit_dynamic_lib_load($fh) {
 
     if self.flags<core> {
         return;
