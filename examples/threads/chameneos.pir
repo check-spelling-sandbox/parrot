@@ -276,16 +276,16 @@ lock:
     inc sem
 .end
 
-.sub sem_ackquire
+.sub sem_acquire
     .param pmc sem
     .param pmc sem_waiters
-    .local pmc interp, waiter, sem_wait_task, sem_ackquire_core
+    .local pmc interp, waiter, sem_wait_task, sem_acquire_core
 
     interp = getinterp
-    sem_ackquire_core = get_global 'sem_ackquire_core'
+    sem_acquire_core = get_global 'sem_acquire_core'
 
     sem_wait_task = new ['Task']
-    setattribute sem_wait_task, 'code', sem_ackquire_core
+    setattribute sem_wait_task, 'code', sem_acquire_core
     setattribute sem_wait_task, 'data', sem
     push sem_wait_task, sem_waiters
     interp.'schedule_proxied'(sem_wait_task, sem)
@@ -293,7 +293,7 @@ lock:
     returncc
 .end
 
-.sub sem_ackquire_core
+.sub sem_acquire_core
     .param pmc data
     .local pmc sem, sem_waiters, interp, task, cont
 
