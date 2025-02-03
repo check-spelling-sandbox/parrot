@@ -281,7 +281,7 @@ rm -rf $RPM_BUILD_ROOT
 
 * Wed Mar 11 2009 Jérôme Quelin <jquelin@mandriva.org> 0.9.1-1mdv2009.1
 + Revision: 353669
-- Development/Liraries group doesn't exist. using devel/perl
+- Development/Libraries group doesn't exist. using devel/perl
 - adding missing group to fix strange submit error (thanks misc++)
 - fixing rpmlint warnings
 - minor tweak
