@@ -473,14 +473,14 @@ The ID of the board whose block should be moved.
 
 Number of units the block should be moved horizontally.
 
-Positiv numbers will move the block rightwards, negative
+Positive numbers will move the block rightwards, negative
 numbers leftwards.
 
 =item parameter C<xval>
 
 Number of units the block should be moved vertically.
 
-Positiv numbers will move the block downwards, negative
+Positive numbers will move the block downwards, negative
 numbers upwards (untested; not recommended).
 
 =back
