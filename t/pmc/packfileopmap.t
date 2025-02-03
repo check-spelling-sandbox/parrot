@@ -35,7 +35,7 @@ Tests the PackfileOpMap PMC.
 .end
 
 
-# sanity check we have a PackfilOpMap
+# sanity check we have a PackfileOpMap
 .sub 'sanity'
     .local pmc opmap
     opmap = new ['PackfileOpMap']
