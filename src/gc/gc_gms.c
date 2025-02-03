@@ -2166,7 +2166,7 @@ DONE:
 
 =item C<static void * gc_gms_get_high_pmc_ptr(PARROT_INTERP)>
 
-Get memory boudaries.
+Get memory boundaries.
 
 */
 
