@@ -182,7 +182,7 @@ p PQmakeEmptyPGresult p i
 
 # The following functions are missing from the original 7.3 version
 # so I am leaving these as well. I am including the declarations here
-# to let people know the ommission was deliberate. Not 100% why
+# to let people know the omission was deliberate. Not 100% why
 # though ;-)
 
 #extern void PQprint(FILE *fout,
