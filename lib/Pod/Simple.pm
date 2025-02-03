@@ -834,7 +834,7 @@ sub _ponder_extend {
     DEBUG > 2 and print "Extensor has good syntax.\n";
 
     unless($new_letter =~ m/^[A-Z]$/s or $new_letter) {
-      DEBUG > 2 and print " $new_letter isn't a valid thing to entend.\n";
+      DEBUG > 2 and print " $new_letter isn't a valid thing to extend.\n";
       $self->whine(
         $para->[1]{'start_line'},
         "You can extend only formatting codes A-Z, not like \"$new_letter\""
