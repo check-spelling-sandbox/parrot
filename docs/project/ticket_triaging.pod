@@ -213,9 +213,9 @@ All tests should pass on all core platforms in all releases of Parrot (as well
 as on trunk).  Test failures, with the appropriate diagnostic information, are
 moderate priority.
 
-=item Is the defect reproducable in the current development version?
+=item Is the defect reproducible in the current development version?
 
-Reproducable defects have a normal priority.  Unreproducable tickets have a
+Reproducable defects have a normal priority.  Unreproducible tickets have a
 lower priority.
 
 =item Does the defect affect a core platform?
