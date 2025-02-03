@@ -83,32 +83,32 @@ sections:
 
 =over 4
 
-=item I<name>:
+=item I<name>
 
 A short, general description of a specific part of the Parrot design. This may
 be a particular subsystem (e.g. the garbage collector), or a more general
 topic (e.g. basic Parrot datatypes).
 
-=item Abstract:
+=item Abstract
 
 A quick blurb explaining the purpose of the PDD.
 
-=item Synopsis I<(optional)>:
+=item Synopsis I<(optional)>
 
 Code snippets showing the semantics of the PDD (if applicable).
 
-=item Description:
+=item Description
 
 A description of the general nature of the PDD and how it relates to
 Parrot.
 
-=item Implementation:
+=item Implementation
 
 A major section of the PDD that encapsulates a free-form discussion of any and
 all applicable information related to the final observations, conclusions, and
 what-have-you that required writing the document in the first place.
 
-=item Attachments:
+=item Attachments
 
 References to supporting files that should be considered part of the PDD.
 Text files and image files may be in any widely accepted format, which is
@@ -118,7 +118,7 @@ Text files and image files should only provide supplemental information; no
 fair hiding all the info in an attachment just to not have to write an
 implementation section.
 
-=item References:
+=item References
 
 References to additional sources of information, but not those necessary for
 the PDD itself.

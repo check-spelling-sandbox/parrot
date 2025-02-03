@@ -121,7 +121,7 @@ This may prove useful for finding GC-related bugs.
 
 =over 11
 
-=item Note:
+=item Note
 
 Do not use this option for longer running programs: since memory is no longer recycled, it may
 quickly become exhausted.

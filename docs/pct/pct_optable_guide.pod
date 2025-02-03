@@ -407,7 +407,7 @@ That's a matter of taste. You can define the operator C<+> in various ways:
 
 Note that C<< 'infix:<+>' >> is not allowed.
 
-=item * I get an error message saying:
+=item * I get an error message saying
 
  "Can only replace inside string or index after end of string"
 

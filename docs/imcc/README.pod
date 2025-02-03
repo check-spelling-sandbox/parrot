@@ -80,11 +80,11 @@ Please email parrot-dev@lists.parrot.org with any bug-reports or patches.
 
 =over 4
 
-=item Original Author:
+=item Original Author
 
 Melvin Smith <melvin.smith@mindspring.com>, <melvins@us.ibm.com>
 
-=item Contributing Authors:
+=item Contributing Authors
 
 =over 8
 
