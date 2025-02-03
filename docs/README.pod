@@ -221,7 +221,7 @@ of the FAQ. F<getttingstarted.pod> is far too general and implies something
 other than the Parrot Developer FAQ.
 
 [4] Is there any reason to retain this document? It seems, ten years later,
-more of a curiousity than an actual guide.
+more of a curiosity than an actual guide.
 
 =head1 COPYRIGHT
 
