@@ -99,7 +99,7 @@ characters. Intended for usage with full URIs.
 
 $S0 = 'percent_encode_component'(source)
 
-Return the percent encoding of the source string prserving the URI unreserved
+Return the percent encoding of the source string preserving the URI unreserved
 and URI reserved characters. Intended for usage with URIs components, such as
 form data in HTTP GET requests.
 
