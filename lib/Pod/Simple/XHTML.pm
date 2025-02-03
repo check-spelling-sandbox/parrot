@@ -176,7 +176,7 @@ The value of this string should already be &-escaped.
 Set the HTML output at the beginning and end of each file. The default
 header includes a title, a doctype tag (if C<html_doctype> is set), a
 content tag (customized by C<html_header_tags>), a tag for a CSS file
-(if C<html_css> is set), and a tag for a Javascript file (if
+(if C<html_css> is set), and a tag for a JavaScript file (if
 C<html_javascript> is set). The default footer simply closes the C<html>
 and C<body> tags.
 

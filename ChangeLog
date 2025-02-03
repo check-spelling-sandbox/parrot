@@ -533,7 +533,7 @@
           are available here:
             = Saurabh Kumar - "Update parrot-libgit2 to latest libgit2 release"
                 http://www.parrot.org/tags/parrot-libgit2
-            = Paweł Murias - "A Javascript backend for Rakudo"
+            = Paweł Murias - "A JavaScript backend for Rakudo"
                 http://parrot.org/blog/1850
             = Denis Boyun  - "Improve Web UI of App::Parrot::Create"
                 http://parrot.org/blog/1843
@@ -575,7 +575,7 @@
           = Saurabh Kumar - "Update parrot-libgit2 to latest libgit2 release"
               https://gist.github.com/sa1/5468408
               http://www.google-melange.com/gsoc/proposal/review/google/gsoc2013/saurabh_kgp/11002
-          = Paweł Murias - "A Javascript backend for Rakudo"
+          = Paweł Murias - "A JavaScript backend for Rakudo"
             http://www.google-melange.com/gsoc/proposal/review/google/gsoc2013/pmurias/9002
           = Denis Boyun  - "Improve Web UI of App::Parrot::Create"
               https://gist.github.com/denisboyun/5472762
@@ -1197,7 +1197,7 @@
       + Cardinal (Ruby on Parrot) now compiles and passes it's test suite on master
         and is looking for developers : https://github.com/parrot/cardinal
       + Cardinal can send smoke reports with "rake smoke" or "parrot setup.pir smoke"
-      + Jaspers, an implementation of Javascript on Parrot, now has a GitHub repo
+      + Jaspers, an implementation of JavaScript on Parrot, now has a GitHub repo
         and is looking for developers: https://github.com/leto/jaspers
     - Community
       + The following Parrot Google Code-In students were grand prize winners:
@@ -3057,7 +3057,7 @@
     * support for threads (again)
 
 2006-08-08    Release 0.4.6
-    - New languages: Ruby ("Cardinal"), Javascript ("ecmascript")
+    - New languages: Ruby ("Cardinal"), JavaScript ("ecmascript")
     - Updated languages: Tcl, dotnet, bc, Pheme, Punie, WMLScript
     - Updated compilers: PGE, TGE
     - IMCC updates:

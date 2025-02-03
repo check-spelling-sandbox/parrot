@@ -13,7 +13,7 @@ winxed [option] [program] [args]
 This is Winxed, a High Level Language (HLL) that is packaged with Parrot
 for tool, library and language development.
 
-Winxed is Javascript-ish. If you are looking for something more Perl-ish,
+Winxed is JavaScript-ish. If you are looking for something more Perl-ish,
 you want NQP.
 
 =head2 Command line otions

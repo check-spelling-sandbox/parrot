@@ -21,7 +21,7 @@ the original goal of Parrot was to be the underlying
 implementation for Perl6, which has object oriented
 features. Parrot's secondary goal is to provide a good
 platform for other dynamic languages such as Python, Ruby,
-PHP, Javascript, etc. and those languages too have the
+PHP, JavaScript, etc. and those languages too have the
 ability (if not the requirement) to be object oriented. Thus
 Parrot contains facilities for a manipulating objects so
 that language implementors can easily express the

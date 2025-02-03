@@ -14,7 +14,7 @@ Suggests: parrot-doc
 Provides: parrot-test, parrot-data-dumper
 Description: virtual machine for dynamic languages
  Parrot is a bytecode-based virtual machine designed for dynamic languages.
- Parrot hosts a variety of language implementations, including Tcl, Javascript,
+ Parrot hosts a variety of language implementations, including Tcl, JavaScript,
  Ruby, Lua, Scheme, PHP, Python, Perl 6, and a .NET bytecode translator.
 
 Package: parrot-minimal
