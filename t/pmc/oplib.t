@@ -18,10 +18,10 @@ This PIR code implements various oplib tests.
 # Hardcoded assumptions for tests:
 # * We have an op called end
 # * It has no arguments
-# * Is the only member of its familiy
+# * Is the only member of its family
 .const string TESTED_OP = 'end'
 .const int TESTED_OP_ELEMS = 0
-.const int TESTED_OP_FAMILIY_ELEMS = 1
+.const int TESTED_OP_FAMILY_ELEMS = 1
 # Never have an op with this name:
 .const string TESTED_NOSUCHOP = 'hopeweneverhaveopcodesnamedlikethis'
 
@@ -127,7 +127,7 @@ This PIR code implements various oplib tests.
     unless $I0 goto done
     $I0 = elements $P1
 done:
-    is($I0, TESTED_OP_FAMILIY_ELEMS, "'end' family is not null and has 1 element")
+    is($I0, TESTED_OP_FAMILY_ELEMS, "'end' family is not null and has 1 element")
 .end
 
 .sub family_no_opcode
