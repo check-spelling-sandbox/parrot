@@ -17,7 +17,7 @@ t/configure/032-data.t - tests Parrot::Configure::Data
 
 =head1 DESCRIPTION
 
-Regressions tests for the L<Parrote::Configure::Data> class.
+Regressions tests for the L<Parrot::Configure::Data> class.
 
 =cut
 
