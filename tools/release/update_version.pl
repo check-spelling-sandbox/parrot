@@ -30,7 +30,7 @@ The version numbers must be of the form C<n.n.n.> where C<n> is one or more
 digits.  Supply the old version first.  No error-checking is performed to
 ensure, I<e.g.,> that the newer number properly increments the older.
 
-The programm concludes by calling out C<git diff> so that you may review the
+The program concludes by calling out C<git diff> so that you may review the
 changes.
 
 =head1 AUTHOR
