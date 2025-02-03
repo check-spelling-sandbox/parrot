@@ -67,10 +67,10 @@ for my $i ( 0..$lang ) {
     $parser->parse_file( "${MOD_BUILD_PATH}$item_list_ref->[$i][0]" );
 }
 
-print $TEX_FH <<'PIR_TITEL';
+print $TEX_FH <<'PIR_TITLE';
 \chapter{PIR Guide}
 
-PIR_TITEL
+PIR_TITLE
 
 open my $PIR_TEX_FH, '>', 'build/pir_guide_tex.in';
 $lang = @$PIR_chap_list_ref - 1;
