@@ -256,7 +256,7 @@ to override several behaviors.
 
 PCT programs can run in two ways.  An interactive mode runs one statement at a
 time in the console.  A file mode loads and runs an entire file at once.  A
-driver program may specificy information about the interactive prompt and
+driver program may specify information about the interactive prompt and
 environment, as well as help and error messages.
 
 =head3 C<HLLCompiler> class
