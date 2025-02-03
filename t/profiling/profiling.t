@@ -73,7 +73,7 @@ $pir_code :=
 
 .sub second
   .local pmc p
-  p = new ['Interger']
+  p = new ['Integer']
   p = 1
 .end";
 
@@ -98,7 +98,7 @@ $pir_code :=
 
 .sub second
   .local pmc p
-  p = new ['Interger']
+  p = new ['Integer']
   'third'()
   p = 1
 .end

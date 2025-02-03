@@ -254,7 +254,7 @@ complete:
 
 ###########################################################################
 
-# Pass in the Interger array and return the final checksum as a string
+# Pass in the Integer array and return the final checksum as a string
 
 .sub _sha256_hex
     .param pmc context
