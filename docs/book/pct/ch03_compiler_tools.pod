@@ -206,7 +206,7 @@ you to fill the details.
 
 C<mk_language_shell.pl> prefers to run from within a working Parrot repository.
 It requires a single argument, the name of the new project to create.  There
-are no hard-and-fast rules about names, but the Parrot developers reccomend
+are no hard-and-fast rules about names, but the Parrot developers recommend
 that Parrot-based implementations of existing languages use unique names.
 
 Consider the names of Perl 5 distributions: Active Perl and Strawberry Perl.
