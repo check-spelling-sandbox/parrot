@@ -5470,7 +5470,7 @@
 2002-01-31 03:13  grunblatt
 
     * Configure.pl, lib/Parrot/Jit/sun4-solaris.pm,
-    lib/Parrot/Jit/sun4Generic.pm: Use dis intead of objdump.  Courtesy
+    lib/Parrot/Jit/sun4Generic.pm: Use dis instead of objdump.  Courtesy
     of: Jason Gloudon <perl@gloudon.com>
 
 2002-01-31 02:22  grunblatt

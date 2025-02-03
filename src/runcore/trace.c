@@ -653,7 +653,7 @@ done:
             if ((!PMC_IS_NULL(pfile)) && (!PMC_IS_NULL(pline))) {
                 /* The debugger interpreter may not be the same as
                  * the main interpreter, extract values from the
-                 * PMC instad of passing them directly */
+                 * PMC instead of passing them directly */
                 STRING * const file = VTABLE_get_string(interp, pfile);
                 const INTVAL   line = VTABLE_get_integer(interp, pline);
                 Parrot_io_eprintf(debugger, " (%Ss:%li)", file, (long)line);
