@@ -3444,7 +3444,7 @@ PDB_eval(PARROT_INTERP, SHIM(const char *command))
         interp->pdb->debugger : interp;
     TRACEDEB_MSG("PDB_eval");
 
-    Parrot_io_eprintf(warninterp, "The eval command is currently unimplemeneted\n");
+    Parrot_io_eprintf(warninterp, "The eval command is currently unimplemented\n");
 }
 
 /*

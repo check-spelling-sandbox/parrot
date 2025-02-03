@@ -249,7 +249,7 @@ before stopping again.
 
 =item eval (e)
 
-The eval command is currently unimplemeneted.
+The eval command is currently unimplemented.
 
 Run an instruction. The syntax is:
 
