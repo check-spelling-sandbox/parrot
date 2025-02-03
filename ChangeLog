@@ -1157,7 +1157,7 @@
         - $loadlib directive
         - -o option to installable driver added
         - Indent generated PIR is added to improve clarity and avoid imcc pitfalls
-          with non indented sub bodys
+          with non indented sub bodies
     - Community
       + M0 roadmap is in progress
     - Documentation
