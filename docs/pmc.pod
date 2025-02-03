@@ -147,7 +147,7 @@ function to free those resources.
 =item PObj_needs_early_gc_FLAG (deprecated)
 
 Set this flag if your PMC needs timely destruction, e.g. to close a file
-handle at the end of a block scope if the PMC isn't alive any more. This is
+handle at the end of a block scope if the PMC isn't alive anymore. This is
 only implemented with the C<MS> garbage collector. Use C<--gc=ms> at
 Configure.pl to activate this.  Note that this feature does not work and is
 deprecated since release 3.1.
