@@ -98,7 +98,7 @@ To update source code for specific project use (it fall bacj to fetch) :
 
     update  <project>
 
-To configure source code for specific project use (runs 'update' furst) :
+To configure source code for specific project use (runs 'update' first) :
 
     configure   <project>
 
