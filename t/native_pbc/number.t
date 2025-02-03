@@ -246,7 +246,7 @@ little/big-endian.
 
 # These are PBC files generated from F<t/native_pbc/testdata/number.pasm> with
 # different architectures.
-# If your wordsize/floattype/endianess is not covered here
+# If your wordsize/floattype/endianness is not covered here
 # please add it:
 
   $ ./parrot -o n.pbc t/native_pbc/testdata/number.pasm
@@ -265,7 +265,7 @@ On test failures please add the output of
 
   $ ./pbc_dump -h t/native_pbc/number_${id}.pbc
 
-into your report. We need your wordsize/floattype/endianess.
+into your report. We need your wordsize/floattype/endianness.
 
 =end comment
 

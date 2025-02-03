@@ -58,7 +58,7 @@ On test failures please add the output of
 
   $ ./pbc_dump -h t/native_pbc/integer_${id}.pbc
 
-into your report. We need your wordsize/floattype/endianess.
+into your report. We need your wordsize/floattype/endianness.
 
 =end comment
 

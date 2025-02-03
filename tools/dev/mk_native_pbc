@@ -30,7 +30,7 @@
 # t/native_pbc/testdata/number.pasm
 # t/native_pbc/testdata/string.pasm
 
-# check 32/64 bit, endianess, hugefloat
+# check 32/64 bit, endianness, hugefloat
 i_id=
 n_id=
 enable_long_double=
