@@ -161,8 +161,8 @@ values of "foo" including "sub" (something executable), "namespace"
 (something in which to find more names), and "var" (anything).
 
 NOTE: The job of the typed interface is to bridge I<naming> differences, and
-I<only> naming differences.  Therefore: 1) It does not enforce, nor even
-notice, the interface requirements of "sub" or "namespace": e.g.
+I<only> naming differences.  Therefore: 1) It neither enforces, nor even
+notices, the interface requirements of "sub" or "namespace": e.g.
 execution of C<add_sub("foo", $P0)> does I<not> automatically guarantee
 that $P0 is an invokable subroutine; and 2) it does not prevent
 overwriting one type with another.

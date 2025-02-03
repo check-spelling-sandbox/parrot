@@ -122,7 +122,7 @@ There should be no space between a function name
 and the following open parenthesis
 END_DESCRIPTION
 
-## L<PDD07/Code Formatting/"parentheses should not have space immediately after the opening parenthesis nor immediately before the closing parenthesis">
+## L<PDD07/Code Formatting/"parentheses should neither have space immediately after the opening parenthesis nor immediately before the closing parenthesis">
     is( join("\n",@space_between_parens), "", <<END_DESCRIPTION);
 parentheses should not have space immediately
 after the opening parenthesis nor immediately

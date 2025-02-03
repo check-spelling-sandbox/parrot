@@ -499,7 +499,7 @@ processed. C<base> has to be within [2..36].
 
 If any chars in the String aren't converted, an exception is thrown.
 
-TODO Currently overflow to BigInt is B<not> handled nor detected.
+TODO Currently overflow to BigInt is B<neither> handled B<nor> detected.
 
 =cut
 
