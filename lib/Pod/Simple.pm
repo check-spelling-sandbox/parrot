@@ -1025,7 +1025,7 @@ sub _treat_Zs {  # Nix Z<...>'s
 # Note, however, that formatting codes and Z<>'s can occur in any and all
 # parts of an L<...> (i.e., in name, section, text, and url).
 
-sub _treat_Ls {  # Process our dear dear friends, the L<...> sequences
+sub _treat_Ls {  # Process our dear, dear, friends, the L<...> sequences
 
   # L<name>
   # L<name/"sec"> or L<name/sec>
