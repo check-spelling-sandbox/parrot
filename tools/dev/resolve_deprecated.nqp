@@ -17,7 +17,7 @@ resolve_deprecated.nqp - Resolve deprecated features
 =end SYNOPSIS
 =begin DESCRIPTION
 
-Resolve all freshly deprecated features listed in api.yaml by quering trac for
+Resolve all freshly deprecated features listed in api.yaml by querying trac for
 status of ticket.
 
 =end DESCRIPTION
