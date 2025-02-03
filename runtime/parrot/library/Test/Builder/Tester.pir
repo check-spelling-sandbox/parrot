@@ -47,7 +47,7 @@ Test::Builder::Tester - Parrot extension for testing test modules
 
 =head1 DESCRIPTION
 
-Test::Builder::Tester is a pure-Parrot library for testing testing modules
+Test::Builder::Tester is a pure-Parrot library for testing modules
 built on L<Test::Builder>.  It allows you to describe the TAP output that they
 will produce, showing any differences in description, directive, and
 diagnostics.
