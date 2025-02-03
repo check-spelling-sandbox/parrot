@@ -617,7 +617,7 @@ sub _make_treelet {
   } if(ref $_[0] and ref $_[0][0] and $_[0][0][0] eq '~Top') {
     # Hack so we can pass in fake-o pre-cooked paragraphs:
     #  just have the first line be a reference to a ['~Top', {}, ...]
-    # We use this feechure in gen_errata and stuff.
+    # We use this feature in gen_errata and stuff.
 
     DEBUG and print "Applying precooked treelet hack to $_[0][0]\n";
     $treelet = $_[0][0];
