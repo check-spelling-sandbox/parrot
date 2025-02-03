@@ -54,7 +54,7 @@
 # precedences
 2/2+.1                  1.1\n           precedence of div
 2*2+.4                  4.4\n           precedence of mul
-.1-6/2                  -2.9\n          precedente of div
+.1-6/2                  -2.9\n          precedence of div
 2%2+4                   4\n             precedence of modulus
 
 # parenthesis
