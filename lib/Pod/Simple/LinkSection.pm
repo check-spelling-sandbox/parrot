@@ -93,7 +93,7 @@ C<< LZ<><Stuff/foo> >>, and "bar" for
 C<< LZ<><Stuff/bIZ<><ar>> >>.
 
 However, anyone particularly interested in getting the full value of
-the treelet, can just traverse the content of the treeleet
+the treelet, can just traverse the content of the treelet
 @$treelet_object.  To wit:
 
 
