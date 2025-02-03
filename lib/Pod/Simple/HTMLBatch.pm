@@ -227,7 +227,7 @@ sub _do_one_batch_conversion {
   my @namelets = grep m/\S/, split "::", $module;
         # this can stick around in the contents LoL
   my $depth    = scalar @namelets;
-  die "Contentless thingie?! $module $infile" unless @namelets; #sanity
+  die "Contentless thingy?! $module $infile" unless @namelets; #sanity
     
   $outfile  ||= do {
     my @n = @namelets;
