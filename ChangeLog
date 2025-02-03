@@ -1453,7 +1453,7 @@
       + Many tests for the extend/embed interface were added
       + done_testing() is now implemented in Test::More
     - Tools
-      + The fakexecutable tapir is renamed parrot-prove
+      + The fakecutable tapir is renamed parrot-prove
       + Performance fixes to the pbc_to_exe tool
       + Fix data_json to work outside of trunk
       + The dynpmc GzipHandle (zlib wrapper) was added
