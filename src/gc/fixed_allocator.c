@@ -250,7 +250,7 @@ Create Pool Allocator
 
 =item C<void Parrot_gc_pool_destroy(PARROT_INTERP, Pool_Allocator *pool)>
 
-Destroy allocated Pool - free memory for all areanas in the alocated pool
+Destroy allocated Pool - free memory for all areanas in the allocated pool
 
 =item C<void * Parrot_gc_pool_allocate(PARROT_INTERP, Pool_Allocator * pool)>
 
