@@ -81,7 +81,7 @@ The board the new block will belong to.
     set prop, 0
     setattribute self, 'fall', prop
 
-    # set the board the block blongs to
+    # set the board the block belongs to
     setattribute self, 'board', board
 
     # return the block
