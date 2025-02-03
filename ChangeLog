@@ -11022,7 +11022,7 @@
 2001-10-02 12:49  gregor
 
     * process_opfunc.pl:
-      * Fixed a tyop:  s/string/integer/ for INT_CONST expansion
+      * Fixed a typo:  s/string/integer/ for INT_CONST expansion
 
 2001-10-02 12:40  simon
 
@@ -11543,7 +11543,7 @@
 2001-09-20 14:06  gregor
 
     * languages/jako/jakoc:
-      * Fixed a tyop in the string interpolation regex.
+      * Fixed a typo in the string interpolation regex.
 
     Courtesy of Michael L Maraist <maraist@UDel.Edu>
 
