@@ -513,7 +513,7 @@ CODE
     $S0 = $P1()
     is($S0, "Foo", "get a Sub from a HLL namespace")
 
-    # find something an a different .HLL
+    # find something in a different .HLL
     push_eh eh1
     $P0 = get_root_namespace ["myhll"]
     $P1 = $P0["baz"]
