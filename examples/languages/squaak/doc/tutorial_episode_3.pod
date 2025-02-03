@@ -238,7 +238,7 @@ doesn't skip whitespace between the different parts specified in the token,
 while a rule does. For now, it's enough to remember to use a token if you want
 to match a string that doesn't contain any whitespace (such as literal constants
 and identifiers) and use a rule if your string does (and should) contain
-whitespace (such as a an if-statement). We shall use the word C<rule> in a
+whitespace (such as an if-statement). We shall use the word C<rule> in a
 general sense, which could refer to a token. For more information on rules and
 tokens take a look at Synopsis 5 or look at Moritz's blog post on the subject
 in the references.

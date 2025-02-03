@@ -38,7 +38,7 @@ you might find on the command line).
 
 If you don't pass a C<compiler> or C<exec> argument pair, the harness will run the tests
 with C<perl>.  If you I<do> pass one of these pairs, the harness can use another executable.
-For C<exec> a reference to a an array of string is expected.
+For C<exec> a reference to an array of string is expected.
 For C<compiler> the harness will run the tests with
 C<parrot>, calling the C<compiler> file as the first argument.
 
