@@ -915,7 +915,7 @@
           implementations (currently C and Perl) and specification.
         + Good progress has been made on the threads branch which builds
           on the green_threads branch. This gets Parrot much closer to
-          being able to utilize multiple CPU cores seemlessly. More details
+          being able to utilize multiple CPU cores seamlessly. More details
           at http://niner.name/Hybrid_Threads_for_the_Parrot_VM.pdf
     - Documentation
         + New release manager documentation for parrot.github.com :
