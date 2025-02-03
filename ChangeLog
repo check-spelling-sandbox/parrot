@@ -12328,7 +12328,7 @@
 
     * TODO, t/euclid.pasm:
     From: "Gregor N. Purdy" <gregor@focusresearch.com> Subject: [patch
-    (really)] Removed opcode qualifers t/euclid.pasm to exercise opcode
+    (really)] Removed opcode qualifiers t/euclid.pasm to exercise opcode
     inference
 
 2001-09-13 14:42  simon
