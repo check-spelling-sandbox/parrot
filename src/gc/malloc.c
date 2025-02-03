@@ -2324,7 +2324,7 @@ typedef struct malloc_chunk* mfastbinptr;
   matter too much. It is defined at half the default trim threshold as a
   compromise heuristic to only attempt consolidation if it is likely
   to lead to trimming. However, it is not dynamically tunable, since
-  consolidation reduces fragmentation surrounding loarge chunks even
+  consolidation reduces fragmentation surrounding large chunks even
   if trimming is not used.
 */
 
