@@ -2505,7 +2505,7 @@
       + HQ9+: reimplemented with PCT
       + Lua:
         . reimplementation with PCT, using PAST and POST
-        . behavior aligned wih 5.1.3
+        . behavior aligned with 5.1.3
       + Rakudo:
         . implemented basic I/O, including '$*IN', '$*OUT', '$*ERR', 'prefix:='
         . implemented simple typing and runtime type checking

@@ -100,7 +100,7 @@ Characters occurring after a '=' padding character are never decoded.
     bb = plain
 
     len_mod_3 = len % 3
-    # Fill up with with null bytes
+    # Fill up with null bytes
     if len_mod_3 == 0 goto END_1
         push bb, 0
         if len_mod_3 == 2 goto END_1
