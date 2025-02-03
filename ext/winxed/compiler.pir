@@ -25253,7 +25253,7 @@
     self.'NamespaceBase'($P1, $P2)
     setattribute self, 'unit', __ARG_1
     root_new $P2, ['parrot';'Hash']
-    setattribute self, 'bultins_used', $P2
+    setattribute self, 'builtins_used', $P2
     box $P1, 0
     setattribute self, 'subidgen', $P1
 
@@ -25262,7 +25262,7 @@
 
 .sub 'use_builtin' :method
         .param string __ARG_1
-    getattribute $P1, self, 'bultins_used'
+    getattribute $P1, self, 'builtins_used'
     $P1[__ARG_1] = 1
 
 .end # use_builtin
@@ -25350,7 +25350,7 @@
         .param pmc __ARG_1
 .const 'Sub' WSubId_9 = "WSubId_9"
 .const 'Sub' sformat = "sformat"
-    getattribute $P1, self, 'bultins_used'
+    getattribute $P1, self, 'builtins_used'
     $P12 = $P1["chomp"]
     if_null $P12, __label_1
     self.'addload'("\"String/Utils.pbc\"")
@@ -25462,7 +25462,7 @@
     get_class $P1, [ 'Winxed'; 'Compiler'; 'NamespaceBase' ]
     addparent $P0, $P1
     addattribute $P0, 'unit'
-    addattribute $P0, 'bultins_used'
+    addattribute $P0, 'builtins_used'
     addattribute $P0, 'libs'
     addattribute $P0, 'loads'
     addattribute $P0, 'subidgen'
