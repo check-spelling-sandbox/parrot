@@ -135,7 +135,7 @@ pmclass StructView auto_attrs {
 
 =item C<void init()>
 
-Creating an instance without an initializer is dissallowed and will throw an
+Creating an instance without an initializer is disallowed and will throw an
 exception.
 
 =cut
