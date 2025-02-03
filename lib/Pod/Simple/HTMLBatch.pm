@@ -398,7 +398,7 @@ sub _prep_contents_breakdown {
   my $contents = $self->_contents;
   my %toplevel; # maps  lctoplevelbit => [all submodules]
   my %toplevel_form_freq; # ends up being  'foo' => 'Foo'
-                               # (mapping anycase forms to most freq form)
+                               # (mapping any case forms to most freq form)
   
   foreach my $entry (@$contents) {
     my $toplevel = 
