@@ -42,7 +42,7 @@ static struct longopt_opt_decl options[] = {
     { 'j', 'j', 0,       { "--jit" } },
     { 'o', 'o', 0,       { "--output-file" } },
     { 'p', 'p', 0,       { "--profile" } },
-    { 'P', 'P', 0, { "--prederefrenced-core" } },
+    { 'P', 'P', 0, { "--predereferenced-core" } },
     { 'S', 'S', 0,       { "--switched-core" } },
     { 'g', 'g', 0,       { "--no-computed-goto" } },
     { 't', 't', 0,       { "--trace" } },
