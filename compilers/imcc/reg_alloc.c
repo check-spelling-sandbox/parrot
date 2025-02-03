@@ -316,7 +316,7 @@ make_stat(ARGMOD(IMC_Unit *unit), ARGMOD_NULLOK(int *sets), ARGMOD_NULLOK(int *c
 
 =item C<static void imc_stat_init(IMC_Unit *unit)>
 
-registes usage of .pir
+registers usage of .pir
 
 =cut
 
