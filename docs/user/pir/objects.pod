@@ -45,7 +45,7 @@ namespace. Both namespaces may have a subroutine called
 C<run()> but with radically different implementations. Below
 is some code to illustrate this example:
 
-=head3 Example 1:
+=head3 Example 1
 
 =begin PIR
 
