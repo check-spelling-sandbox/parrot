@@ -111,7 +111,7 @@ do {                                                                        \
 typedef void (*value_free)(ARGFREE(void *));
 
 /* To avoid creating OrderedHashItem PMC we reuse FixedPMCArray PMC */
-/* So, there is indexes to avoid using of "magick constants" */
+/* So, there is indexes to avoid using of "magic constants" */
 enum ORDERED_HASH_ITEM_PART {
     ORDERED_HASH_ITEM_KEY   = 0,
     ORDERED_HASH_ITEM_VALUE = 1,
