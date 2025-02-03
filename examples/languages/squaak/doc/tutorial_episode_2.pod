@@ -148,7 +148,7 @@ into several POST nodes.
 The template for a C<while> statement typically consists of a number of labels and
 jump instructions. On the POST level, the same while statement is represented by
 a set of nodes, each representing a one instruction or a label. This makes it
-much easier to transforn POST into executable code.
+much easier to transform POST into executable code.
 
 Usually, as a user of the PCT, you don't need to know details of POST nodes,
 which is why this will not be discussed in further detail. Use C<--target=post>
