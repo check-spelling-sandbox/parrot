@@ -845,7 +845,7 @@ handler:
 
 .sub exception_to_int_noalphanum
     .const 'Sub' noalnum = 'to_int_noalnum'
-    throws_type(noalnum, .EXCEPTION_INVALID_OPERATION, 'to_int - no aplhanumeric')
+    throws_type(noalnum, .EXCEPTION_INVALID_OPERATION, 'to_int - no alphanumeric')
 .end
 
 .sub assign_null_string
