@@ -299,7 +299,7 @@ sub canonicalize_files {
 
 =item C<transform_input($input, $parent, $parent_title)>
 
-Transform the specfied POD file into HTML. C<$input> should be a path to the
+Transform the specified POD file into HTML. C<$input> should be a path to the
 POD file, relative to the Parrot repo (e.g., "src/pmc/default.pmc"). C<$parent>
 and C<$parent_title> both refer to the parent's "page" JSON chunk and "title"
 JSON chunk, respectively. Parent information will be used to create breadcrumb
