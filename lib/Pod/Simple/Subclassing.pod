@@ -672,10 +672,10 @@ or
     =end html
 
 ...the parser will ignore these sections unless your subclass has
-specified that it wants to see sections targetted to "html" (or whatever
+specified that it wants to see sections targeted to "html" (or whatever
 the formatter name is).
 
-If you want to process all sections, even if they're not targetted for you,
+If you want to process all sections, even if they're not targeted for you,
 call this before you start parsing:
 
   $parser->accept_targets('*');

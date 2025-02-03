@@ -1042,7 +1042,7 @@ sub _ponder_end {
       "'=end $content' is invalid.  (Stack: "
       . $self->_dump_curr_open() . ')'
     );
-    DEBUG and print "Ignoring mistargetted =end $content\n";
+    DEBUG and print "Ignoring mistargeted =end $content\n";
     return 1;
   }
   
@@ -1052,7 +1052,7 @@ sub _ponder_end {
       "=end $content without matching =begin.  (Stack: "
       . $self->_dump_curr_open() . ')'
     );
-    DEBUG and print "Ignoring mistargetted =end $content\n";
+    DEBUG and print "Ignoring mistargeted =end $content\n";
     return 1;
   }
   
@@ -1064,7 +1064,7 @@ sub _ponder_end {
       . ".  (Stack: "
       . $self->_dump_curr_open() . ')'
     );
-    DEBUG and print "Ignoring mistargetted =end $content at line $para->[1]{'start_line'}\n";
+    DEBUG and print "Ignoring mistargeted =end $content at line $para->[1]{'start_line'}\n";
     return 1;
   }
 

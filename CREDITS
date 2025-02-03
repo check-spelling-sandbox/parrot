@@ -486,7 +486,7 @@ D: Memory reallocation test and patch
 U: gregor
 N: Gregor N. Purdy
 D: Early Parrot core, including packfile and op processing code,
-D: first predereferencing core, first Parrot-targetted compiler
+D: first predereferencing core, first Parrot-targeted compiler
 D: with subroutines: Jako.
 D: The human version of indent.
 E: gregor@focusresearch.com
