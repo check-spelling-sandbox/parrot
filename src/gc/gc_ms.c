@@ -514,7 +514,7 @@ Parrot_gc_ms_init(PARROT_INTERP, SHIM(Parrot_GC_Init_Args *args))
 
 =item C<static void gc_ms_finalize(PARROT_INTERP)>
 
-Finalyze MS GC subsystem. Destroy everything.
+Finalize MS GC subsystem. Destroy everything.
 
 =cut
 
