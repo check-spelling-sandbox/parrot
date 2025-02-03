@@ -142,7 +142,7 @@ Creates PackFile for given directory.
         PackFile_Directory * const pfdir = &pf->directory;
         PMC                * const iter  = VTABLE_get_iter(INTERP, attrs->hash);
 
-        /* Create Segments. Add to Directory with transfering ownership */
+        /* Create Segments. Add to Directory with transferring ownership */
         while (VTABLE_get_bool(INTERP, iter)) {
             STRING           * const name  = VTABLE_shift_string(INTERP, iter);
             PMC              * const seg   = VTABLE_get_pmc_keyed_str(INTERP, attrs->hash, name);
