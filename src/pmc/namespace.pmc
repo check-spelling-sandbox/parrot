@@ -625,7 +625,7 @@ really a public API.
 
 =item C<void *get_pointer_keyed_str(STRING *key)>
 
-Return the given namepace item or PMCNULL, keyed by name.
+Return the given namespace item or PMCNULL, keyed by name.
 
 =item C<void *get_pointer_keyed(PMC *key)>
 

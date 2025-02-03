@@ -3,7 +3,7 @@
 
 =head1 NAME
 
-t/pmc/namepspace-subs.t - test NameSpace PMC
+t/pmc/namespace-subs.t - test NameSpace PMC
 
 =head1 SYNOPSIS
 

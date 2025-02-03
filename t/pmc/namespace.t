@@ -3,7 +3,7 @@
 
 =head1 NAME
 
-t/pmc/namepspace.t - test NameSpace PMC
+t/pmc/namespace.t - test NameSpace PMC
 
 =head1 SYNOPSIS
 
@@ -849,7 +849,7 @@ CODE
     .return(iso-8859-1:"Foo::Fran\x{E7}ois")
 .end
 
-# Namesace specified in Unicode
+# Namespace specified in Unicode
 .namespace [ utf8:"\x{20AC}uros" ]
 .sub 'baz'
     .return(utf8:"\x{20AC}uros")

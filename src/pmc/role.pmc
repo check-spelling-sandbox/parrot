@@ -155,7 +155,7 @@ init_role_from_hash(PARROT_INTERP, ARGIN(PMC *self), ARGIN(PMC *info))
         role->name = VTABLE_get_string(interp, _namespace);
     }
 
-    /* If we were attached to a namespce and are now attached to a new one,
+    /* If we were attached to a namespace and are now attached to a new one,
      * need to unset ourselves in the old namespace. */
     if (!PMC_IS_NULL(old_ns) && role->_namespace != old_ns) {
         Parrot_pcc_invoke_method_from_c_args(interp, old_ns, set_class_str, "P->", PMCNULL);
@@ -392,7 +392,7 @@ available information is:
 
 =item name - String PMC containing the name of the role
 
-=item namespce - NameSpace PMC of the namespace attached to the role
+=item namespace - NameSpace PMC of the namespace attached to the role
 
 =item attributes - Hash keyed on attribute name, value is hash describing it
 
