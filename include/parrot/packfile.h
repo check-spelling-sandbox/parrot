@@ -121,7 +121,7 @@ typedef struct PackFile_Header {
 /*
 ** PackFile Segment:
 *    The base type of every section
-*    include it as first element of every derivated Segment
+*    include it as first element of every derived Segment
 */
 
 typedef struct PackFile_Segment * (*PackFile_Segment_new_func_t)(PARROT_INTERP);
