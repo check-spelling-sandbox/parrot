@@ -156,7 +156,7 @@ sub get_repo_directory {
     if (!defined $repos) {
         print "\'\$PConfig{\'tempdir\'}\' is undefined. This variable must ",
           "be defined and defined with a readable and a writeable directory ",
-            "to execute, successfuly, this script.\n";
+            "to execute, successfully, this script.\n";
         print "Did you, perhaps, fail to configure parrot?\n";
         exit(1);
     }

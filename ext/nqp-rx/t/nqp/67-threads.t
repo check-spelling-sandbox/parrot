@@ -4,7 +4,7 @@
 
 plan(3);
 
-my $x := "ok 2 - sub sucessfully called from Task";
+my $x := "ok 2 - sub successfully called from Task";
 my $sub := sub foo() {
     say($x);
 }
