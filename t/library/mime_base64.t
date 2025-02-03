@@ -385,7 +385,7 @@ END_JSON
     .local pmc lives_ok
     lives_ok = get_hll_global [ 'Test'; 'More' ], 'lives_ok'
 
-    lives_ok(<<'CODE', 'enc_sub("\x{203e}") # Github issue #813')
+    lives_ok(<<'CODE', 'enc_sub("\x{203e}") # GitHub issue #813')
 .sub foo
     .local pmc enc_sub
     enc_sub = get_global [ "MIME"; "Base64" ], 'encode_base64'

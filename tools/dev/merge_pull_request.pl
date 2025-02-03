@@ -7,7 +7,7 @@ use autodie qw/:all/;
 
 =head1 NAME
 
-tools/dev/merge_pull_request.pl - Merge Github Pull Requests
+tools/dev/merge_pull_request.pl - Merge GitHub Pull Requests
 
 =head1 SYNOPSIS
 
@@ -44,7 +44,7 @@ together.
   git stash pop
 
 This script can be used to merge a pull request for any repo in the
-Parrot Github Organization. For instance, to merge Cardinal Pull
+Parrot GitHub Organization. For instance, to merge Cardinal Pull
 request #4:
 
  perl $PARROT/tools/dev/merge_pull_request.pl 4 cardinal

@@ -4,7 +4,7 @@
 
 =head1 NAME
 
-docs/project/release_parrot_github_guide.pod - Parrot Github Release Guide.
+docs/project/release_parrot_github_guide.pod - Parrot GitHub Release Guide.
 
 =head1 DESCRIPTION
 
@@ -246,7 +246,7 @@ historical purposes and as a reference document for future release managers.
 v6.x.x and you do not have, for example, a F<parrot-docs7> repository, you
 will need to contact an "owner" and ask him or her to create a new github
 repository.  You will, then, need to follow all of the steps outlined in
-Github's gh-pages guide at L<http://pages.github.com/> to set up the
+GitHub's gh-pages guide at L<http://pages.github.com/> to set up the
 repository.
 
 [3] Here, you do NOT need to worry with any optimizations when configuring

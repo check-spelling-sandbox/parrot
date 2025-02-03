@@ -19,7 +19,7 @@ the archiving of the previous documentation release into the appropriate
 
 In short, this script automates Section X of the Release Manager Guide
 (F<docs/project/release_manager_guide.pod>) as outlined in the Release Parrot
-Github Guide (F<docs/project/release_parrot_github_guide.pod>).
+GitHub Guide (F<docs/project/release_parrot_github_guide.pod>).
 
 =head1 OPTIONS
 

@@ -236,9 +236,9 @@ want tested.
 
 =back
 
-=head2 Merging a Github Pull Request
+=head2 Merging a GitHub Pull Request
 
-If someone has sent the Parrot Github Organization a pull request, life is a
+If someone has sent the Parrot GitHub Organization a pull request, life is a
 bit easier now. If pull request #123 has been sent, then type:
 
     perl tools/dev/merge_pull_request.pl 123
@@ -257,7 +257,7 @@ If you want to merge this code to master, you then type
     git merge --no-ff pull_request_123
 
 Don't forget to close the pull request manually, since signing off on the
-commits changes their SHA1s, which means Github can't detect the merge and
+commits changes their SHA1s, which means GitHub can't detect the merge and
 autoclose the pull request. That's it!
 
 
@@ -370,7 +370,7 @@ ye will.
 
 NOTE: This is not official policy, and could change at any time.
 
-ALSO NOTE: With the introduction of the magical Github Merge Button, doesn't
+ALSO NOTE: With the introduction of the magical GitHub Merge Button, doesn't
 this seem like a ridiculous amount of work to accept code from a fork? This
 workflow is still useful if you want to run tests or do any other analysis
 on the pull request.
@@ -379,7 +379,7 @@ If you are merging code from non-core committers, Parrot would like to see
 "Signed-off-by" lines on each commit, so it is clear that one person wrote the
 code and someone else is taking responsibility for merging the code.
 
-To merge in a pull request on Github, there is the easy way or the hard way.
+To merge in a pull request on GitHub, there is the easy way or the hard way.
 The easy way is to use tools/dev/merge_pull_request.pl like so:
 
     perl $PARROT/tools/dev/merge_pull_request.pl N
@@ -388,7 +388,7 @@ where N is the number of the pull request. This will create a branch for the
 pull request and plop you on it, so that tests or other analyses can be run.
 
 This script can be used to merge a pull request for any repo in the Parrot
-Github Organization. For instance, to merge Cardinal Pull request #4:
+GitHub Organization. For instance, to merge Cardinal Pull request #4:
 
  perl $PARROT/tools/dev/merge_pull_request.pl 4 cardinal
 
@@ -402,7 +402,7 @@ called 'awesome_feature'.
 
 Run C<perldoc tools/dev/merge_pull_request.pl> for more info.
 
-The hard way: Follow the first two steps on the Github pull request page, i.e:
+The hard way: Follow the first two steps on the GitHub pull request page, i.e:
 
     # 1) Make a new branch to pull stuff into
     git checkout -b someguy-newbranch master
@@ -454,9 +454,9 @@ The use of reset can be avoided if you create a new branch
 before applying the patch, and then merging that branch
 to master before pushing.
 
-Also note that you will have to manually close the Github
+Also note that you will have to manually close the GitHub
 pull request, since adding Signed-Off-By lines changes
-the SHA1's which Github uses to automatically close
+the SHA1's which GitHub uses to automatically close
 pull requests.
 
 =head2 Announcing a Merge

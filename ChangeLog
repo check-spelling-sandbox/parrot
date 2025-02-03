@@ -1017,7 +1017,7 @@
         + New repo for the Parrot Alternate Compiler Toolkit, a re-implementation of
           PCT in Winxed: https://github.com/parrot/PACT
     - Documentation
-        + We are in the process to migrating our Trac wiki at http://trac.parrot.org/ to Github
+        + We are in the process to migrating our Trac wiki at http://trac.parrot.org/ to GitHub
           at https://github.com/parrot/parrot/wiki
         + Packfile PMC documentation was updated
     - Tests
@@ -1076,7 +1076,7 @@
       + A memory leak in IMCC was fixed.
     - Languages
       + The snaphost of Winxed included with Parrot was updated to version 1.0.0
-      + Winxed has migrated to Github: https://github.com/NotFound/winxed
+      + Winxed has migrated to GitHub: https://github.com/NotFound/winxed
 
 2011-06-21    Release 3.5.0
     - Core
@@ -1197,7 +1197,7 @@
       + Cardinal (Ruby on Parrot) now compiles and passes it's test suite on master
         and is looking for developers : https://github.com/parrot/cardinal
       + Cardinal can send smoke reports with "rake smoke" or "parrot setup.pir smoke"
-      + Jaspers, an implementation of Javascript on Parrot, now has a Github repo
+      + Jaspers, an implementation of Javascript on Parrot, now has a GitHub repo
         and is looking for developers: https://github.com/leto/jaspers
     - Community
       + The following Parrot Google Code-In students were grand prize winners:

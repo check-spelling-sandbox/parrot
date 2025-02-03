@@ -72,9 +72,9 @@ Parrot in real time.
 X<github.com wiki>
 X<issue tracking (github.com)>
 
-Parrot developers track issues using the Github issues system at
+Parrot developers track issues using the GitHub issues system at
 L<https://github.com/parrot/parrot/issues/> Users can submit new tickets and
-track the status of existing tickets.  Github also provides a wiki used in
+track the status of existing tickets.  GitHub also provides a wiki used in
 project development and a source code browser.
 
 =head2 Parrot Development

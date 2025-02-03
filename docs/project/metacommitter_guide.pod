@@ -38,13 +38,13 @@ the Metacommitter can add commit rights.
 
 =item 1
 
-Go to the Parrot Developers Team in the Parrot Github Organization
+Go to the Parrot Developers Team in the Parrot GitHub Organization
 L<https://github.com/organizations/parrot/teams/12270>
 
 =item 2
 
 Scroll down to the bottom of the page, type in the username of the
-Github user that you want to give commit access, and press "Add".
+GitHub user that you want to give commit access, and press "Add".
 
 =back
 
