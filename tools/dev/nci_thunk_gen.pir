@@ -1055,7 +1055,7 @@ JSON
     table[.DATATYPE_INT64] = $P1
 
     #XXX Warning! Those 3 thunks fail when compiled optimized, due to strict aliasing rules
-    # We rather use it via libfii, which does the concversion explicitly
+    # We rather use it via libfii, which does the conversion explicitly
     $P1 = 'from_json'(<<'JSON')
 { "c_type":   "short *",
   "pcc_type": "PMC  *",

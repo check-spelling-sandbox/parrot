@@ -70,7 +70,7 @@ well.
     unicode_keys_literal_rt_39249()
 
     integer_keys()
-    value_types_convertion()
+    value_types_conversion()
     elements_in_hash()
     equality_tests()
 
@@ -1364,7 +1364,7 @@ postit_end:
 .end
 
 # Check that we can set various value types and they properly converted
-.sub value_types_convertion
+.sub value_types_conversion
     .local pmc hash
     hash = new ['Hash']
 

@@ -1658,7 +1658,7 @@ STRING *
 unicode_foldcase(PARROT_INTERP, ARGIN(const STRING *src))
 {
     ASSERT_ARGS(unicode_foldcase)
-    /* This forces an up-convertion to utf16, which might not be desirable
+    /* This forces an up-conversion to utf16, which might not be desirable
        in all cases */
     return unicode_convert_case(interp, src, ENCODING_FOLDCASE);
 }
