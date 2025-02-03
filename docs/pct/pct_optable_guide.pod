@@ -173,7 +173,7 @@ You might think that it's somewhat overkill to write and call a subroutine
 for such a simple operation, and that this could be done simpler. Well,
 you're right. If the implementation of the C<+> operator is as simple as
 in this case, there's a simpler way to implement the exact same behavior.
-This can be accomplished using a the C<pirop> trait, discussed below.
+This can be accomplished using the C<pirop> trait, discussed below.
 
 =head3 Infix, prefix, postfix
 

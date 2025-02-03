@@ -175,7 +175,7 @@ Default section: [main]
 Default dir: ""
 
 Note that Parrot::Config might not be generated yet, so
-we must assure that the current directory is the the build_dir.
+we must assure that the current directory is the build_dir.
 This is the job of F<tools/build/addgenerated.pl>, but
 within some perl5 modules you must take care by yourself.
 

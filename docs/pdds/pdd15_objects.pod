@@ -435,7 +435,7 @@ throws an exception.
 
 =end PIR_FRAGMENT
 
-An accessor for the attributes of the class. It returns the a Hash of
+An accessor for the attributes of the class. It returns the Hash of
 all attributes, with a key of the attribute name and a value of a Hash
 containing the attribute's metadata. The accessor is read-only.
 
@@ -1470,7 +1470,7 @@ externally visible), protected (only visible to subclasses) and internal
 (only visible inside the current assembly - the closest correspondence in
 Parrot is perhaps only visible inside the same PBC file). Additionally, it
 is allowable for a subclass to introduce an attribute of the same name as
-the a parent class has, and they both exist depending on what type an
+the parent class has, and they both exist depending on what type an
 instance of the class is currently viewed as being (read: there is a
 difference between the type of the reference and the type of the value).
 

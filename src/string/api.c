@@ -3086,7 +3086,7 @@ Parrot_str_find_cclass(PARROT_INTERP, INTVAL flags, ARGIN_NULLOK(const STRING *s
 =item C<INTVAL Parrot_str_find_not_cclass(PARROT_INTERP, INTVAL flags, const
 STRING *s, UINTVAL offset, UINTVAL count)>
 
-Finds the first occurrence of the a character I<not> in the given character
+Finds the first occurrence of the character I<not> in the given character
 class in C<flags> in the string starting from C<offset> and looking at C<count>
 positions, and returns its glyph-wise index.  Returns C<offset + count>, if not
 found.

@@ -1604,7 +1604,7 @@
       + Fixes for the port of Parrot to RTEMS were applied. Yay, first port to a real time OS!
       + On NetBSD, shared libs are now used.
     - Performance
-      + Use the the fixed-sized allocator in the Context and the CallSignature PMC.
+      + Use the fixed-sized allocator in the Context and the CallSignature PMC.
       + Many small speed improvements.
     - New deprecations
       + MT19937, the Mersenne twisted pseudorandom number generator, is now hosted on github and
