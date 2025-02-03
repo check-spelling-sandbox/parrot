@@ -154,7 +154,7 @@ inline op noop(out PMC, in INT) {
         $1 = bar();
     else
         $1 = baz();
-}|, "Parenthises less 'if-else'");
+}|, "Parentheses less 'if-else'");
 
 
 parse_ok($c, q«
