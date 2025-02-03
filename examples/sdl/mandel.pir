@@ -22,7 +22,7 @@ This is a PIR program which displays the Mandelbrot Set, using SDL.
 =head1 KEYBOARD/MOUSE COMMANDS
 
   q          ... quit application
-  r          ... reset to intial coors and scale
+  r          ... reset to initial coors and scale
   <but-left> ... zoom in, center at click
   <but-mid>  ... center at click
   <but-right> .. zoom out, center at click
