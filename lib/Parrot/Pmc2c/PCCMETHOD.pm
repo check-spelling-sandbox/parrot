@@ -99,7 +99,7 @@ our $reg_type_info = {
 
 =head3 C<parse_adverb_attributes>
 
-  builds and returs an adverb hash from an adverb string such as
+  builds and returns an adverb hash from an adverb string such as
   ":optional :opt_flag :slurpy"
   {
     optional  =>1,
