@@ -68,7 +68,7 @@ go_ahead:
     $P1 = new ['UnManagedStruct']
     $P1 = $P0
     eq $P0, $P1, OK
-    ok(0, 'unable to compate the equality of two unmanagedstructs')
+    ok(0, 'unable to compare the equality of two unmanagedstructs')
 OK:
     ok(1, 'can compare the equality of two unmanagedstructs')
 .end
