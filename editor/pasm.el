@@ -16,7 +16,7 @@
 ;;;; different highlighting levels ala cperl-mode.
 ;;;;
 ;;;; 2) simple indentation (but it kills tabs, which i think is a good
-;;;; thing so i'm not going to fix it (yes, it'm just justifying my
+;;;; thing so i'm not going to fix it (yes, i'm just justifying my
 ;;;; laziness (i just realized that this is going to create a *lot* of
 ;;;; whitespace diffs ... hmmm ...)))
 ;;;;
