@@ -170,7 +170,7 @@
 -
   name:  'Meta-model implementation used by PCT'
   eligible:  '2.7'
-  note:  'PCT is set to switch to a new meta-model implementation for its classes and objects. This will most likely only affect those who rely on the interface of what is returned from .HOW, or rely on PCT objects exhibiting various other peculiarities of the P6object implementation. (Even when that is the case, the HOW API will not be changing too drastically, so for most PCT users there should be little to no upheavel.)'
+  note:  'PCT is set to switch to a new meta-model implementation for its classes and objects. This will most likely only affect those who rely on the interface of what is returned from .HOW, or rely on PCT objects exhibiting various other peculiarities of the P6object implementation. (Even when that is the case, the HOW API will not be changing too drastically, so for most PCT users there should be little to no upheaval.)'
   ticket:
   tags:
     - 'deprecated'
