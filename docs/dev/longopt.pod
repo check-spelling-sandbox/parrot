@@ -63,4 +63,4 @@ will just ignore it (this only applies to the --foo=bar style).
 
 =head1 AUTHOR
 
-    Luke Palmer  C<fibonaci@babylonia.flatirons.org>
+    Luke Palmer  C<fibonacci@babylonia.flatirons.org>
