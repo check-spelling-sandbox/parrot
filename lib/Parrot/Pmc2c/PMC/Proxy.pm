@@ -7,7 +7,7 @@ Parrot::Pmc2c::PMC::Proxy
 =head1 DESCRIPTION
 
 The threading implementation uses Proxy PMCs to allow accessing other threads's data without
-confusing the GC. Almost all of it's methods are auto generated and this module is the recipie.
+confusing the GC. Almost all of it's methods are auto generated and this module is the recipe.
 The proxy refuses all write calls by forwarding to cant_do_write_method which raises an exception.
 Read only calls are forwarded to the proxied PMC. If the call returns a PMC a new proxy is
 generated for the result.
