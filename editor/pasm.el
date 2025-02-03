@@ -26,7 +26,7 @@
 ;;;; 4) a function for passing the current buffer to assembler.pl and
 ;;;; passing the output of that to the parrot interpreter and putting
 ;;;; the output in another window. see the doc string for
-;;;; pasm-assemble-and-run-buffer (dont't forget to set PERL5LIB). By
+;;;; pasm-assemble-and-run-buffer (don't forget to set PERL5LIB). By
 ;;;; default this is bound to "C-c C-c".
 ;;;;
 ;;;; COPYRIGHT (C) 2002 Edward Marco Baringer. All Rights Reserved.
