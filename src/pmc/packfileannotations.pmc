@@ -290,7 +290,7 @@ Create PackFile_Annotations* from self.
             Each key has name from ConstantTable. We store them in names Array.
             names => [
                 $constant_id_1,
-                $contsant_id_2,
+                $constant_id_2,
                 ...
             ]
         */
