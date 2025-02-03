@@ -314,7 +314,7 @@ rm -rf $RPM_BUILD_ROOT
 * Fri Apr 22 2011 Gerd Pokorra <gp@zimt.uni-siegen.de> 3.3.0-1
 - updated to 3.3.0
 - change to use make with _smp_mflags
-- remove pkgconfig depedency, configuration and files
+- remove pkgconfig dependency, configuration and files
 - remove configuration option: --cxx
 
 * Fri Apr 15 2011 Paul Howarth <xxxxxxx@city-fan.org> 3.0.0-5
