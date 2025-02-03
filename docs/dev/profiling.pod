@@ -106,7 +106,7 @@ code.
 
 =head3 Debugging-Related Variables
 
-These variables are intended primarly for testing of the profiling code itself.
+These variables are intended primarily for testing of the profiling code itself.
 You can play with them if you want, but they probably won't help you get any
 useful work done.
 
