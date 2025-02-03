@@ -6162,7 +6162,7 @@
         .param pmc __ARG_1
         .param string __ARG_2
 .const 'Sub' InternalError = "InternalError"
-    InternalError("Winxed.Compiler.ConditionFriendlyIf.emit_if not overriden", self)
+    InternalError("Winxed.Compiler.ConditionFriendlyIf.emit_if not overridden", self)
 
 .end # emit_if
 
@@ -6175,7 +6175,7 @@
         .param pmc __ARG_1
         .param string __ARG_2
 .const 'Sub' InternalError = "InternalError"
-    InternalError("Winxed.Compiler.ConditionFriendlyElse.emit_else not overriden", self)
+    InternalError("Winxed.Compiler.ConditionFriendlyElse.emit_else not overridden", self)
 
 .end # emit_else
 
