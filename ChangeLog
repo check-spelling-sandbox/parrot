@@ -2213,7 +2213,7 @@
         - now over 3300 passing spectests
         - precompiled modules
         - precompiled scripts  (--target=pir can now be executed standalone)
-        - Support for @*INC and %*INC varialbes
+        - Support for @*INC and %*INC variables
         - additional builtin methods and subs
         - added 'fail' function, warnings on use of undefined values
         - m/.../ regexes
