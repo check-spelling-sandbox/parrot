@@ -3102,7 +3102,7 @@
 
 2006-07-20    audreyt
 
-    * --maintainer prerequesites are now bison 2.2+ and flex 2.5.3x
+    * --maintainer prerequisites are now bison 2.2+ and flex 2.5.3x
       (or some such --leo)
       (at the moment code is checking for 2.0 -- ambs)
 
