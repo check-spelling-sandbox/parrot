@@ -29,7 +29,7 @@ out-of-bounds test. Checks INT and PMC keys.
     test_get_via_pmc()
     test_interface_done()
     test_clone()
-    test_clone_unitialized()
+    test_clone_uninitialized()
     test_truth()
     test_get_iter()
     test_freez_thaw()
@@ -228,7 +228,7 @@ out-of-bounds test. Checks INT and PMC keys.
      is($S0, "jkl", "Third element cloned")
 .end
 
-.sub 'test_clone_unitialized'
+.sub 'test_clone_uninitialized'
     $P0 = new ['FixedStringArray']
     $P1 = clone $P0
 

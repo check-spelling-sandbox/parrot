@@ -56,10 +56,10 @@ iterating over Hash. Just check that we create it.
 
     p = hik.'key'()
     i = isnull p
-    is(i, 1, 'HIK.key gives null when unitialized')
+    is(i, 1, 'HIK.key gives null when uninitialized')
 
     s = hik
-    is(s, '', 'HIK gives empty string when unitialized')
+    is(s, '', 'HIK gives empty string when uninitialized')
 
     # Magic value?
     i = hik
