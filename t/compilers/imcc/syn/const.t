@@ -180,7 +180,7 @@ pir_output_is( <<'CODE', <<'OUT', 'PIR heredocs: accepts double quoted terminato
 .sub 'main' :main
     $S0 = <<"quotage"
 I want an elephant
-Oh, I want an elephat!
+Oh, I want an elephant!
 Oh, woo, elephants, yeah :-O
 quotage
 
@@ -188,7 +188,7 @@ quotage
 .end
 CODE
 I want an elephant
-Oh, I want an elephat!
+Oh, I want an elephant!
 Oh, woo, elephants, yeah :-O
 OUT
 
