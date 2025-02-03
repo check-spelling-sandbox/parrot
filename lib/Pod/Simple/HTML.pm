@@ -507,7 +507,7 @@ sub _do_middle_main_loop {
           push @{ $self->{'PSHTML_index_points'} }, [$tagname, $name]
            if $ToIndex{ $tagname };
             # Obviously, this discards all formatting codes (saving
-            #  just their content), but ahwell.
+            #  just their content), but ah, well.
            
         } else {  # ludicrously long, so nevermind
           DEBUG and print "Linearized ", scalar(@to_unget),
