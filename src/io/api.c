@@ -741,7 +741,7 @@ in a C<STRING*>. Notice that some bytes which represent incomplete an
 incomplete codepoint at the end of the input may be omitted.
 
 Notice that this routine may automatically allocate a read buffer for
-multi-byte encodeded inputs.
+multi-byte encoded inputs.
 
 =cut
 
