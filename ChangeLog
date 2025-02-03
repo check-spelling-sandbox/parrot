@@ -1075,7 +1075,7 @@
       + Unicode error messages on Win32 now work correctly.
       + A memory leak in IMCC was fixed.
     - Languages
-      + The snaphost of Winxed included with Parrot was updated to version 1.0.0
+      + The snapshot of Winxed included with Parrot was updated to version 1.0.0
       + Winxed has migrated to GitHub: https://github.com/NotFound/winxed
 
 2011-06-21    Release 3.5.0
