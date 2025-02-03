@@ -150,7 +150,7 @@ method emit_opsenum_h_body($fh) {
 }
 
 method print_c_source_file() {
-    # Build file in memeory
+    # Build file in memory
     my $fh := pir::new__Ps('StringHandle');
     $fh.open('dummy.c', 'rw');
     self.emit_c_source_file($fh);
