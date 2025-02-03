@@ -1151,7 +1151,7 @@ Deallocation function to be attached to allocated instances.
 
 =item C<static void dereference_null(PARROT_INTERP)>
 
-Throw an exception relating to attempting to derefence a NULL pointer.
+Throw an exception relating to attempting to dereference a NULL pointer.
 
 =item C<static void index_out_of_bounds(PARROT_INTERP, INTVAL i)>
 
@@ -1165,7 +1165,7 @@ Throw an exception about a buffer being too small.
 =item C<static void dereference_unaligned(PARROT_INTERP, const void *base_ptr,
 size_t align)>
 
-Throw an exception relating to attempting to derefence an un-aligned pointer.
+Throw an exception relating to attempting to dereference an un-aligned pointer.
 
 =cut
 
