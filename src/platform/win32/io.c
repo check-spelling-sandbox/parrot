@@ -396,7 +396,7 @@ Parrot_io_internal_write(PARROT_INTERP, PIOHANDLE os_handle,
      * Let's try writing in small chunks */
     if (err == ERROR_NOT_ENOUGH_MEMORY
     ||  err == ERROR_INVALID_USER_BUFFER) {
-        DWORD chunk   = 4096; /* Arbitrarily choosen value */
+        DWORD chunk   = 4096; /* Arbitrarily chosen value */
         DWORD written = 0;
 
         if (len < chunk)
