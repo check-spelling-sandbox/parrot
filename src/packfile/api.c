@@ -1575,7 +1575,7 @@ Parrot_pf_set_current_packfile(PARROT_INTERP, ARGIN(PMC *pbc))
 =item C<PackFile_ByteCode * Parrot_pf_create_default_segments(PARROT_INTERP, PMC
 * const pf_pmc, STRING * file_name, int add)>
 
-Create the default seguments for the given packfile. Return the ByteCode
+Create the default segments for the given packfile. Return the ByteCode
 segment created.
 
 =cut
