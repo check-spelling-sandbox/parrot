@@ -77,7 +77,7 @@ Initializes the exception handler with one handled type.
 =item C<void init_pmc(PMC)>
 
 Initializes the exception handler with one handled type. If the argument
-is a key, intitialize it with the key contents.
+is a key, initialize it with the key contents.
 
 =cut
 
