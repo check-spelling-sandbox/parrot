@@ -127,7 +127,7 @@ INTVAL Parrot_get_entropy(PARROT_INTERP) {
  * '1024 / SC_0' */
 
 #define SC( weight )	( 1024 / weight )	/* Scale factor */
-#define SC_0			16384	/* SC( SC_0 ) evalutes to 0 */
+#define SC_0			16384	/* SC( SC_0 ) evaluates to 0 */
 
 
 #define G_BUFSIZE 32767         /* Size of command-output buffer. */
