@@ -11267,7 +11267,7 @@
     not sure.  2) basic tests for register stack frames, including some
     errors 3) I think we can stop skipping one of the string tests 4) I
     added some more substr tests, but substr was broken, so 5) changed
-    substr to work with out of range values, or 6) throw an error if
+    substr to work with out-of-range values, or 6) throw an error if
     they're far too silly
 
     Courtesy of: Alex Gough <alex@rcon.org>
