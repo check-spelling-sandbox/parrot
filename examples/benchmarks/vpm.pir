@@ -1,6 +1,6 @@
 # Copyright (C) 2004-2009, Parrot Foundation.
 
-# beginn
+# begin
 #use strict;
 #
 #use warnings;
