@@ -18,7 +18,7 @@ Initialize green threads so they'll actually work.
 
 =head2 gt_spawn (my_sub, ...)
 
-Asyncronously run my_sub(...)
+Asynchronously run my_sub(...)
 
 =head2 gt_exit ()
 
