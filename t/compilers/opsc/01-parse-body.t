@@ -194,7 +194,7 @@ inline op noop(out PMC, in INT) {
             break;
     }
 }
-», "Comples switch with two cases");
+», "Compiles switch with two cases");
 
 parse_ok($c, q«
 inline op noop(out PMC, in INT) {
