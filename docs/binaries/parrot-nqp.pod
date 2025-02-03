@@ -37,7 +37,7 @@ To display the parse tree for regular expression use  :
     
     --target=parse
 
-To display the PIR subroutine gererated to match the regular expression use :
+To display the PIR subroutine generated to match the regular expression use :
 
     --target=pir
 

@@ -39,7 +39,7 @@ function main(argv)
 SOURCE
 
     result = wcomp.'compile'(source, "pir" :named("target"))
-    like(result, "hello", "pir geenrated from a simple source looks good")
+    like(result, "hello", "pir generated from a simple source looks good")
 
 .end
 
