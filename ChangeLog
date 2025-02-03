@@ -5516,7 +5516,7 @@
     * docs/running.pod, lib/Parrot/Test.pm: I'm being anal again.
     Here's an update to docs/running.pod to better reflect the current
     state (both the test_parrot and assemble.pl improvements, plus
-    documentation of a few more things.) And also a speling fiks
+    documentation of a few more things.) And also a spelling fiks
     s/POST_MORTERM/POST_MORTEM/.
 
     I could also replace some "perl foo" calls with "./foo" if someone
