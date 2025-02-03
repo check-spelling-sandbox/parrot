@@ -2409,7 +2409,7 @@ work on 2 of 3 views:
 
   square, row
   square, column
-  row, columm
+  row, column
 
 Now the problem is, how to generalize the possible other direction.
 Let's call it the 'neighbour'. A neighbour is always 'towards' the
