@@ -124,6 +124,6 @@ with Parrot internals.
 
 =head1 SEE ALSO
 
-F<RESPONSIBILE_PARTIES>, F<docs/project/>
+F<RESPONSIBLE_PARTIES>, F<docs/project/>
 
 =cut
