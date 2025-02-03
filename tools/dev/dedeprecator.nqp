@@ -3,7 +3,7 @@
 # Copyright (C) 2011-2012, Parrot Foundation.
 
 =begin README
-dedepracator: find deprecations in your Parrot code
+dedeprecator: find deprecations in your Parrot code
 
 This script, fed with a yaml file with Parrot deprecations
 (you probably want it to be Parrot's api.yaml), will scan your code
