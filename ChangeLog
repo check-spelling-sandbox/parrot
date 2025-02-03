@@ -2092,7 +2092,7 @@
       + fixed all known memory leaks in PIR "Hello, world!"
       + NCI signatures now JITted on x86-32 platforms (Windows and Linux)
       + made the .const directive take a quoted type name instead of a constant
-      + made IMCC more re-entrant
+      + made IMCC more reentrant
     - Languages
       + Rakudo
         - refactored Junctions implementation
