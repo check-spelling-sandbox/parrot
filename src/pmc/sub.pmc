@@ -128,7 +128,7 @@ Initializes the subroutine.
 =item C<void init_pmc()>
 
 Initializes the "detached" subroutine from passed Hash. "Detached" means that
-surboutine is fully constructed but not attached to interpreter.
+subroutine is fully constructed but not attached to interpreter.
 
 =cut
 
