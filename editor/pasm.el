@@ -73,7 +73,7 @@ absolute path")
     (define-key *pasm-mode-keymap* (kbd "TAB") 'pasm-indent-function)))
 
 (setq pasm-font-lock-keywords `(;; labels
-                                ;; NB: i hearby decree that labels
+                                ;; NB: i hereby decree that labels
                                 ;; must be the first thing on a line,
                                 ;; the assembler be damned.
                                 (,(concat "^" *pasm-label-regexp*) . font-lock-constant-face)
