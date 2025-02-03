@@ -80,7 +80,7 @@ Run faster.
     .local num CUR_TIME
     .local num TIME_DIFF
     .local num GPS
-    .local int SUPRESS_PRINT
+    .local int SUPPRESS_PRINT
     .local pmc CURS_SET
     .local pmc ENDWIN
     .local pmc DISPLAY
@@ -102,10 +102,10 @@ Run faster.
     time START_TIME
 
     # If true, we don't print
-    SUPRESS_PRINT = 0
-    stop          = 0        # -1 start with <g>o
-    x_offs        = 0
-    y_offs        = 0
+    SUPPRESS_PRINT = 0
+    stop           = 0        # -1 start with <g>o
+    x_offs         = 0
+    y_offs         = 0
 
     ENDWIN   = get_global "ncurses::endwin"
     CURS_SET = get_global "ncurses::curs_set"
@@ -131,7 +131,7 @@ start_curses:
     GEN_COUNT = 0
 
 loop:
-    _dump($S15, SUPRESS_PRINT, x_offs, y_offs, size, GEN_COUNT, STDSCR, delay)
+    _dump($S15, SUPPRESS_PRINT, x_offs, y_offs, size, GEN_COUNT, STDSCR, delay)
 
     if GEN_COUNT >= MAX_GEN goto getout
     (stop, x_offs, y_offs, delay) = _check_key(stop, x_offs, y_offs, delay)
@@ -216,7 +216,7 @@ print_err:
 # S15 has the incoming string, S0 is scratch
 .sub _dump
     .param string world
-    .param int SUPRESS_PRINT
+    .param int SUPPRESS_PRINT
     .param int x_offs
     .param int y_offs
     .param int size
@@ -224,7 +224,7 @@ print_err:
     .param pmc STDSCR
     .param int delay
 
-    if SUPRESS_PRINT goto dumpend
+    if SUPPRESS_PRINT goto dumpend
 
     .local pmc WCLEAR
     .local pmc MVWADDSTR
