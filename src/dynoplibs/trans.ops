@@ -9,7 +9,7 @@ trans.ops - Transcendental Opcodes
 =head1 DESCRIPTION
 
 Addition library of operations to perform various transcendental operations such
-as logarithmics and trigonometrics.
+as logarithms and trigonometrics.
 
 To use this library of ops, add this directive to your PIR:
 
