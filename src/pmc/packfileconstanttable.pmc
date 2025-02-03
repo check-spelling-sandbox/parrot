@@ -136,7 +136,7 @@ Set pointer to underlying PackFile_ConstTable
 
         pftable->base.type = PF_CONST_SEG;
 
-        /* Copy all constanst with respect of type */
+        /* Copy all constants with respect of type */
         pftable->num.const_count = VTABLE_get_integer(INTERP, attrs->num_constants);
         pftable->str.const_count = VTABLE_get_integer(INTERP, attrs->str_constants);
         pftable->pmc.const_count = VTABLE_get_integer(INTERP, attrs->pmc_constants);
