@@ -830,7 +830,7 @@
     - Languages
       + Winxed snapshot updated to 1.9.1
         - New syntax for parameters in multi
-        - New syntax for initalization with new
+        - New syntax for initialization with new
         - Cast to var improved
     - IMCC
         + Removed .line, .file, setline and setfile directives from IMCC

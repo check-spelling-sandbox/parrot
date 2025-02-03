@@ -870,7 +870,7 @@ record_values_ascii_pprof(SHIM_INTERP, ARGIN(Parrot_profiling_runcore_t * runcor
 =item C<static void init_basic_output(PARROT_INTERP, Parrot_profiling_runcore_t
 *runcore)>
 
-Perform initializattion needed by the basic output methods.
+Perform initialization needed by the basic output methods.
 
 =cut
 
