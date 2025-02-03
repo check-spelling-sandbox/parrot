@@ -8,7 +8,7 @@ src/README.pod - Readme file for the 'src/' top-level directory.
 
 =head1 DESCRIPTION
 
-This direcotry contains the C source files which make up the internals of the
+This directory contains the C source files which make up the internals of the
 Parrot Virtual Machine.
 
 =head1 COPYRIGHT
