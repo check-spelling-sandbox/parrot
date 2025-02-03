@@ -195,7 +195,7 @@ bare return on failure (thereby returning an undefined value).
 
 Command-line arguments look like C</--[-\w]+(=.*)?/>; the equals sign separates
 the name and the value. If the value is omitted, it's assumed to be C<1>. The
-options C<--help> and C<--version> are built in to Configure; any others are
+options C<--help> and C<--version> are built into Configure; any others are
 defined by steps.
 
 Command-line arguments are now processed by C<process_options()>, a subroutine

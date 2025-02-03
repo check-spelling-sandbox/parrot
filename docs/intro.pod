@@ -101,7 +101,7 @@ PMC stands for Polymorphic Container. PMCs represent any complex data structure
 or type, including aggregate data types (arrays, hash tables, etc). A PMC can
 implement its own behavior for arithmetic, logical and string operations
 performed on it, allowing for language-specific behavior to be introduced. PMCs
-can be built in to the Parrot executable or dynamically loaded when they are
+can be built into the Parrot executable or dynamically loaded when they are
 needed.
 
 =head2 Garbage Collection
