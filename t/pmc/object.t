@@ -58,7 +58,7 @@ CODE
 
   error:
     # Object must be created by a class
-    todo(0, 'subclass from Object', 'GH #1010 allow normal Object instantiaton')
+    todo(0, 'subclass from Object', 'GH #1010 allow normal Object instantiation')
     pop_eh
 .end
 
