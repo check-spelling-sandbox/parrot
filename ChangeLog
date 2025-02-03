@@ -985,7 +985,7 @@
           - 'multi' modifier improved
           - throw "string" now emits throw instead of die
           - several optimizations in generated code
-          - improved some error dianostics
+          - improved some error diagnostics
     - Community
         + Parrot Foundation was accepted to Google Code-In 2011. We could always use more volunteers.
           Task ideas are on the wiki:
