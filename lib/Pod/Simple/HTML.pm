@@ -64,7 +64,7 @@ __PACKAGE__->_accessorize(
  'batch_mode', # whether we're in batch mode
  'batch_mode_current_level',
     # When in batch mode, how deep the current module is: 1 for "LWP",
-    #  2 for "LWP::Procotol", 3 for "LWP::Protocol::GHTTP", etc
+    #  2 for "LWP::Protocol", 3 for "LWP::Protocol::GHTTP", etc
     
  'title_prefix',  'title_postfix',
   # What to put before and after the title in the head.
