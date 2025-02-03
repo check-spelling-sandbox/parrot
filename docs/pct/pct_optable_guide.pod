@@ -274,7 +274,7 @@ Here, C<"hello"> is a literal and C<foo> is an identifier.
 
 =head3 The C<assoc> trait
 
-Operators have a certain associacity. For instance, the C<+> operator
+Operators have a certain associativity. For instance, the C<+> operator
 is usually said to be C<left> associated, while the exponential operator
 (often written as C<^>) is usually C<right> associated. Consider this
 example:
@@ -293,7 +293,7 @@ In other words, does the C<-> I<associate> with the left or right operand?
 According to standard rules, the C<-> operator is C<left> associated,
 which means the first option is correct.
 
-This associecity is expressed using the C<assoc> trait, like so:
+This associativity is expressed using the C<assoc> trait, like so:
 
  proto 'infix:-' is assoc('left') ...
 
@@ -301,7 +301,7 @@ If you don't specify the association, it defaults to C<left>. C<right>
 association works the other way around. In mathematics, the power operator
 is right associated.
 
-There is a third associacity in Perl 6. Generally a list (using the comma
+There is a third associativity in Perl 6. Generally a list (using the comma
 operator) is not nested at all:
 
  1, 2, 3, 4
