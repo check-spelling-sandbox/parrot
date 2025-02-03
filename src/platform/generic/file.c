@@ -681,13 +681,13 @@ Change root directory
 void
 Parrot_file_chroot(PARROT_INTERP, ARGIN(STRING *path))
 {
-    char *c_str  = Parrot_str_to_platform_cstring(interp, path);
-    int   result = chroot(c_str);
-    int   resul2 = chdir("/");
+    char *c_str   = Parrot_str_to_platform_cstring(interp, path);
+    int   result  = chroot(c_str);
+    int   result2 = chdir("/");
 
     Parrot_str_free_cstring(c_str);
 
-    if (result || resul2)
+    if (result || result2)
         THROW("chroot");
 }
 
