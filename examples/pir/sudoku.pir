@@ -1742,7 +1742,7 @@ nd:
     .return (1)
 .end
 
-# check for blocked rows or colums
+# check for blocked rows or columns
 # returns
 # 0  ... no change
 # 1  ... changes

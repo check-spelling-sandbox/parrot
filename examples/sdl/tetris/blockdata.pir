@@ -136,8 +136,8 @@ END:
 Checks how many free columns exist at the left
 an right edges.
 Positive return values means that this many free
-colums were counted. If the returned value is negative,
-the absolute value is the number of free colums found at
+columns were counted. If the returned value is negative,
+the absolute value is the number of free columns found at
 the right edge.
 
 Returns the number of free columns.
