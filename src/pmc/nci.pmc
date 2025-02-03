@@ -153,7 +153,7 @@ Sets the specified function pointer and signature (C<*key>).
 
 =item C<void set_pointer_keyed_str(STRING *key, void *func)>
 
-Sets the specified function pointer and siganture as described in the string C<key>.
+Sets the specified function pointer and signature as described in the string C<key>.
 
 =cut
 
