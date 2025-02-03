@@ -759,7 +759,7 @@ or trims the last char if it is \n.
 Searches the current working directory for all the pathnames matching
 C<patterns>.
 
-For more information about pattern matching and wilcard expansion, see the
+For more information about pattern matching and wildcard expansion, see the
 C<glob(7)> man page.
 
 Returns a (possibly empty) C<ResizableStringArray> of all the matched
