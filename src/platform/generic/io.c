@@ -15,7 +15,7 @@ These functions are not part of Parrot's API. Don't call them directly, call
 the C<Parrot_io_*> functions in F<src/io/api.c> instead. Each platform defines
 the standard set of macros, which call the correct functions for that platform.
 
-=head2 References:
+=head2 References
 
 APitUE - W. Richard Stevens, AT&T SFIO, Perl 5 (Nick Ing-Simmons)
 

@@ -25,7 +25,7 @@ L<http://www.parrotcode.org/misc/parrotsketch-logs/irclog.parrotsketch-200611/ir
 This summary has been compiled from these sources and from other
 conversations which were not recorded.
 
-=head2 List of problems and proposed solutions for PMCs:
+=head2 List of problems and proposed solutions for PMCs
 
 =over 4
 
@@ -118,7 +118,7 @@ Allison: Yes, needs a more complete proposal.
 =back
 
 
-=head2 List of problems and proposed solutions for objects:
+=head2 List of problems and proposed solutions for objects
 
 =over 4
 
