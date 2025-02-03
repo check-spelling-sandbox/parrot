@@ -36,7 +36,7 @@ The Parrot issues are in the queue I<parrot>.
 
 =head2 New Tickets
 
-Where I<New> refers to a pre-existing ticket sitting in the Parrot queue with a
+Where I<New> refers to a preexisting ticket sitting in the Parrot queue with a
 status of C<new>.
 
 =head3 Bug Triage

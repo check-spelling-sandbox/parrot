@@ -242,7 +242,7 @@ generating the aggregate.
 Accessor method for the C<isdecl> attribute.  A true value
 of C<isdecl> indicates that the variable given by this node
 is being created at this point within the current lexical
-scope.  Otherwise, the node refers to a pre-existing variable
+scope.  Otherwise, the node refers to a preexisting variable
 (possibly from an outer scope).
 
 =item lvalue([flag])

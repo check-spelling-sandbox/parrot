@@ -46,7 +46,7 @@ sub runstep {
     }
     $enable_shared = 0 if $conf->options->get('enable-static');
 
-    # Parrot can't necessarily handle a pre-existing installed shared
+    # Parrot can't necessarily handle a preexisting installed shared
     # libparrot.so without rpath.
     # At this point, we don't know the actual name of the shared parrot
     # library. So we try some candidates.

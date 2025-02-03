@@ -109,7 +109,7 @@ Initializes the PMC.
 
 =item C<void init_pmc()>
 
-Initializes the PMC with a pre-existing C<PackFile_ConstTable>.
+Initializes the PMC with a preexisting C<PackFile_ConstTable>.
 
 =cut
 
