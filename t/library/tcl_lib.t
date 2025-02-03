@@ -32,7 +32,7 @@ test parrot to external Tcl connection
     load_bytecode 'TclLibrary.pbc' # TBD pbc
     'ok'(1, 'loaded TclLibrary')
 
-    goto skip_all    # this is TEMPORARY untill the case of missing libtcl is fixed
+    goto skip_all    # this is TEMPORARY until the case of missing libtcl is fixed
 
     .local pmc tcl
     tcl = new 'TclLibrary'
