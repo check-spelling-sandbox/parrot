@@ -1350,7 +1350,7 @@ Parrot_str_replace(PARROT_INTERP, ARGIN(const STRING *src),
             /* size            removed bytes            added bytes */
     buf_size = src->bufused - (end_byte - start_byte) + rep->bufused;
 
-    /* Alloctate new string size. */
+    /* Allocate new string size. */
     Parrot_gc_allocate_string_storage(interp, dest, buf_size);
     dest->bufused = buf_size;
 
