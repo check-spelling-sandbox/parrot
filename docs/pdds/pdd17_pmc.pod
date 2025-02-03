@@ -768,7 +768,7 @@ PMC.
 Many of the following functions have a *_keyed form, a *_keyed_int form, and a
 *_keyed_str form. The keyed forms take a PMC *, INTVAL, or STRING * key as a
 parameter. The PMC * parameter is null (PMCNULL) if there is no key for that
-PMC; this means that that argument is unkeyed.
+PMC; this means that argument is unkeyed.
 
 In some cases, the caller must provide a non-null key.  Those cases are
 explicitly stated below.  In the other cases, you may have to implement the

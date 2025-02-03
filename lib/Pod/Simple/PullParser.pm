@@ -686,7 +686,7 @@ If the title can't be found, then get_short_title returns empty-string
 =item $author_name   = $parser->get_author
 
 This works like get_title except that it returns the contents of the
-"=head1 AUTHOR\n\nParagraph...\n" section, assuming that that section
+"=head1 AUTHOR\n\nParagraph...\n" section, assuming that section
 isn't terribly long. To recognize a "=head1 Author\n\nParagraph\n"
 section, pass the C<nocase> option:
 
@@ -697,7 +697,7 @@ section, pass the C<nocase> option:
 =item $description_name = $parser->get_description
 
 This works like get_title except that it returns the contents of the
-"=head1 DESCRIPTION\n\nParagraph...\n" section, assuming that that section
+"=head1 DESCRIPTION\n\nParagraph...\n" section, assuming that section
 isn't terribly long. To recognize a "=head1 Description\n\nParagraph\n"
 section, pass the C<nocase> option:
 

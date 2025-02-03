@@ -54,7 +54,7 @@ The files in this directory test functionality used by F<Configure.pl>.
 The tests in this file test configuration step gen::core_pmcs.  Since the step
 is primarily concerned with printing files based on reading of a list of
 C<pmc>s found within the Parrot::Configure object's data structure, we content
-ourselves with ensuring that that list has nonzero size.
+ourselves with ensuring that list has nonzero size.
 
 =head1 AUTHOR
 
