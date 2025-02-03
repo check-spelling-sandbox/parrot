@@ -50,7 +50,7 @@ whole region can be reclaimed at once.
 =head3 Compacting collection
 
 The compacting GC moves live objects close together in a single region in
-memory. This helps to elimianate fragmented free space and allows the
+memory. This helps to eliminate fragmented free space and allows the
 allocation of large live objects. Compacting and copying collectors are often
 similar or even identical in implementation.
 
