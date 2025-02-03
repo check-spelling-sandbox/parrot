@@ -56,7 +56,7 @@ format with arity 1 (default value is 'pcf_%s') use :
 
     --thunk-name-proto <printf prototype>
 
-To set the storage class used for the loader funtion (default value is none) use :
+To set the storage class used for the loader function (default value is none) use :
 
     --loader-storage-class
 
