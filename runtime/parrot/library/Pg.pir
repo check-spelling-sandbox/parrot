@@ -350,7 +350,7 @@ Return the status of the result.
 
 Clear the result structure. You don't have to explicitly call this
 method. If a result object is no longer alive, the GC will call
-__finalize(), which wil clear the object.
+__finalize(), which will clear the object.
 
 =cut
 
