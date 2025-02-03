@@ -1,6 +1,6 @@
 # Copyright (C) 2005, Parrot Foundation.
 
-package init::hinits::irix;
+package init::hints::irix;
 
 use strict;
 use warnings;
