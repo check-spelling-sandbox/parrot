@@ -109,7 +109,7 @@ Parrot_api_get_exception_backtrace(Parrot_PMC interp_pmc,
 flags, Parrot_Init_Args *args, Parrot_PMC *interp)>
 
 Creates a new interpreter and stores it in C<interp>. It takes three optional
-parameters the new interpreter's C<flags>, the initialization paremeters C<args>
+parameters the new interpreter's C<flags>, the initialization parameters C<args>
 and the C<parent> interpreter. This function returns a true value if this call
 is successful and false value otherwise.
 
