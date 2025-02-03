@@ -518,7 +518,7 @@
         + Fixed SEGV when .const not found. [GH #996]
         + Added PackfileView-compatible methods to EvalPMC. [GH #937] (Temporary)
     - Build
-        + Fixed MacOSX -Wno-long-double warning [GH #980]
+        + Fixed Mac OS X -Wno-long-double warning [GH #980]
     - Testing
         + Sorted hash keys to allow better diffs between runs of `make fulltest`.
     - Branches
