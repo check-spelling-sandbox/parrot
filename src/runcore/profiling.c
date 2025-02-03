@@ -550,7 +550,7 @@ ARGIN(PPROF_DATA *pprof_data), ARGIN(opcode_t *pc))
 *runcore, PPROF_DATA *pprof_data, const char *op_name, INTVAL op_time, INTVAL
 line_num)>
 
-Record profiing information about the most recently-executed op.
+Record profiling information about the most recently-executed op.
 
 =cut
 
