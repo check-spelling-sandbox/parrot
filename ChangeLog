@@ -1140,7 +1140,7 @@
       + New Generational GC implemented. To enable it run Configure.pl --gc=gms
       + Now op definitions are semantically parsed. It opens possibilities for
         future optimizations of parrot core.
-      + A statement convert the '.param' PIR systax
+      + A statement convert the '.param' PIR syntax
       + A PMC is implemented for low-level buffer access which separate the
         representation from the pointers
       + Support added for 'long double', 'long long', and 64-bit to StructView
