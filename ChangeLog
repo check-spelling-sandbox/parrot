@@ -1962,7 +1962,7 @@
         - skip creating a class/grammar if it already exists
     - Languages
       + Rakudo
-        - improved error mesages in multi dispatch
+        - improved error messages in multi dispatch
         - implemented clone method for all objects
         - implemented MAIN sub
         - Unicode versions of infix hyper operators
