@@ -1165,7 +1165,7 @@ Adds Integer-, Float- or Rational-PMCs to SELF and stores them in dest.
         UNUSED(SELF)
         UNUSED(value)
         Parrot_ex_throw_from_c_noargs(INTERP, EXCEPTION_UNIMPLEMENTED,
-            "Equality to floats can not be checked because of limited machine "
+            "Equality to floats cannot be checked because of limited machine "
             "accuracy.\nApproximate the rational and check whether the "
             "difference to a value is lower\nthan an epsilon.");
     }

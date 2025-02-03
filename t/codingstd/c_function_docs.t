@@ -32,7 +32,7 @@ declared.
 my $DIST = Parrot::Distribution->new;
 my $headerizer = Parrot::Headerizer->new;
 
-# can not handle .ops or .pmc files yet
+# cannot handle .ops or .pmc files yet
 my @files = grep {/\.(c|h)$/ } @ARGV ? @ARGV :
     map {s/^$PConfig{build_dir}\///; $_} map {s/\\/\//g; $_} map {$_->path} $DIST->get_c_language_files();
 

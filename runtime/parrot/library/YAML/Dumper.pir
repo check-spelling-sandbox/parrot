@@ -51,7 +51,7 @@ no_def_name:
 
 ERROR2:
     pop_eh
-    print "can not find class ['YAML'; 'Dumper'; 'Default']!\n"
+    print "cannot find class ['YAML'; 'Dumper'; 'Default']!\n"
     end
     .return ( 0 )
 ERROR:

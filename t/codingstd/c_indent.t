@@ -45,7 +45,7 @@ sub check_indent {
     foreach my $path (@_) {
         my @source;
         open my $IN, '<', $path
-            or die "Can not open '$path' for reading!\n";
+            or die "Cannot open '$path' for reading!\n";
         @source = <$IN>;
 
         my %state = (

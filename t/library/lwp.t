@@ -199,7 +199,7 @@ Test the LWP library
     $I0 = response.'code'()
     is($I0, 400, "code")
     $S0 = response.'message'()
-    is($S0, "You can not proxy through the filesystem", "message")
+    is($S0, "You cannot proxy through the filesystem", "message")
     $I0 = response.'is_error'()
     ok($I0, "is error")
 .end

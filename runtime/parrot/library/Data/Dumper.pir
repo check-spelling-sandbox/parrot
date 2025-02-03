@@ -48,7 +48,7 @@ no_def_name:
 
 ERROR2:
     pop_eh
-    print "can not find class ['Data'; 'Dumper'; 'Default']!\n"
+    print "cannot find class ['Data'; 'Dumper'; 'Default']!\n"
     end
     .return ( 0 )
 ERROR:

@@ -107,7 +107,7 @@ see http://search.cpan.org/dist/libwww-perl/
     $P0 = new ['HTTP';'Response']
     $P1 = box RC_BAD_REQUEST
     setattribute $P0, 'code', $P1
-    $P1 = box 'You can not proxy through the filesystem'
+    $P1 = box 'You cannot proxy through the filesystem'
     setattribute $P0, 'message', $P1
     .return ($P0)
   L1:

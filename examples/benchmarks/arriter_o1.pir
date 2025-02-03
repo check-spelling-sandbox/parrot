@@ -92,7 +92,7 @@ iter_1_start:
                 $P35 = new 'Undef'
                 $P35 = $S0
                 shift $P36, $P32                # $s
-                # $P37 goes into the aggregate and can not be
+                # $P37 goes into the aggregate and cannot be
                 # pulled out of loop
                 $P37 = new 'Undef'
                 concat $P37, $P36, $P35

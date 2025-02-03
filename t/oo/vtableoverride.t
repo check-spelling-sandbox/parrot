@@ -109,7 +109,7 @@ CODE
     is($S0, "foo", "can have :vtable :anon")
     goto anon_end
   anon_does_not_work:
-    ok(0, "can not have :anon :vtable")
+    ok(0, "cannot have :anon :vtable")
   anon_end:
     pop_eh
 .end

@@ -129,7 +129,7 @@ the required symbols exported in the symbol table.  C<Configure.pl
 --ccflags=-rdynamic>
 
 =item * Any debugging information embedded in the object is not accessible.  So
-file and line number can not be included as part of the backtrace information.
+file and line number cannot be included as part of the backtrace information.
 
 =item * Be warned that signals may cause incorrect backtraces!
 

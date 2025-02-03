@@ -118,7 +118,7 @@ sub create_table {
 ###########################################################################
 my $c_file = File::Spec->catfile( $charset_dir, 'tables.c' );
 open STDOUT, '>', $c_file
-    or die "can not open '$c_file': $!\n";
+    or die "cannot open '$c_file': $!\n";
 print <<"END";
 $header
 #include "tables.h"
@@ -137,7 +137,7 @@ close STDOUT;
 ###########################################################################
 my $h_file = File::Spec->catfile( $charset_dir, 'tables.h' );
 open STDOUT, '>', $h_file
-    or die "can not open '$h_file': $!\n";
+    or die "cannot open '$h_file': $!\n";
 print <<"END";
 $header
 #ifndef PARROT_CHARSET_TABLES_H_GUARD

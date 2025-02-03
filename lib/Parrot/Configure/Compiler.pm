@@ -493,7 +493,7 @@ sub genfile {
         add_to_generated( $target, "[]" );
     }
 
-    # this loop can not be implemented as a foreach loop as the body
+    # this loop cannot be implemented as a foreach loop as the body
     # is dependent on <IN> being evaluated lazily
 
     $conf->{_compiler_file} = $source;

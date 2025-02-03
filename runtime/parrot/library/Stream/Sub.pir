@@ -26,7 +26,7 @@ version 0.1
 
 Like every stream, Stream;Sub as has a C<read> method.
 The benefit is that this stream also has a C<write> method, though it
-can not be called from arbitrary locations.
+cannot be called from arbitrary locations.
 
 You have to provide a Sub PMC that gets called when you call C<read> for the
 first time. This sub gets the stream passed in as P2 ("self" if you declare it

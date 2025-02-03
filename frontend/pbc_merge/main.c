@@ -279,7 +279,7 @@ pbc_merge_bytecode(PARROT_INTERP, ARGMOD(pbc_merge_input **inputs),
             &pf->directory, PF_BYTEC_SEG, BYTE_CODE_SEGMENT_NAME, 1);
 
     if (!bc_seg) {
-        Parrot_io_eprintf(interp, "PBC Merge: Can not create bytecode segment");
+        Parrot_io_eprintf(interp, "PBC Merge: Cannot create bytecode segment");
         exit(1);
     }
 
