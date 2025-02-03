@@ -1911,7 +1911,7 @@ Port Notes:
 * removed /usr/runtime and its preremove and postinstall scripts
 * added parrot_exists_check to .cygport. Already installed parrot
   still not supported, despite my #39742 patch
-* other minor .cygport improvements: export PATH in seperate lines to fix check
+* other minor .cygport improvements: export PATH in separate lines to fix check
 * new patches:
   [perl #39742] [BUG]   installed conflict
   [perl #58034] [TODO]  config_args

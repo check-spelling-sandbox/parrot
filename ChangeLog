@@ -35,7 +35,7 @@
 
 2015-12-15    release 7.11.0
     - Build
-        + Improve darwin and cygwin build, seperate installable libparrot.
+        + Improve darwin and cygwin build, separate installable libparrot.
           GH #1212, 1096
         + Honor --disable-rpath on darwin, skip -install_name then
         + Update default cygwin compiler and linker to gcc with 1.7

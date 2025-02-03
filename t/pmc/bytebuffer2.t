@@ -11,7 +11,7 @@ t/pmc/bytebuffer2.t - Test ByteBuffer resize behaviour
 
 =head1 DESCRIPTION
 
-This file must be seperate from F<t/pmc/bytebuffer.t> as calling the
+This file must be separate from F<t/pmc/bytebuffer.t> as calling the
 function from there does not expose this problem.
 
 =cut
