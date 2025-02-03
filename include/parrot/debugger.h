@@ -60,7 +60,7 @@ typedef struct PDB_condition {
     unsigned short          type;
     unsigned char           reg;
     unsigned char           dummy;      /* For alignment XXX ??  */
-    void                    *value;     /* What neeeds to be aligned with what? */
+    void                    *value;     /* What needs to be aligned with what? */
     PDB_condition_ptr       next;
 } PDB_condition_t;
 
