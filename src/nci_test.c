@@ -788,7 +788,7 @@ nci_cb_C2(cb_C2_func cb, void* user_data)
 
 =item C<PARROT_DYNEXT_EXPORT void nci_cb_C3(cb_C3_func cb, void* user_data)>
 
-Calls function C<cb> with C<&int_cb_C3> and the givn C<user_data>.
+Calls function C<cb> with C<&int_cb_C3> and the given C<user_data>.
 No return value.
 
 =cut

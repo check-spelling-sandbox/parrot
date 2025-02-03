@@ -1350,7 +1350,7 @@ Parrot_io_fprintf(PARROT_INTERP, ARGIN(const PMC * const pmc), ARGIN_FORMAT(cons
 ARGIN_FORMAT(const char *s), ...)>
 
 Writes a C string format with varargs to PIOHANDLE C<os_handle>. Writes
-directly to the givem C<os_handle> without any intermediate buffering or other
+directly to the given C<os_handle> without any intermediate buffering or other
 logic common to Parrot Handle PMCs.
 
 =cut
