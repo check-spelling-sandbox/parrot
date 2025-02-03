@@ -9969,7 +9969,7 @@
         bigger changes separately.
 
         For now, rotate only handles rotates in one direction and
-        of magnituded one. A fully general rotate would do handle
+        of magnitude one. A fully general rotate would do handle
         rotates in both directions and of arbitrary amounts. Again,
         this implementation is sufficient for current applications,
         and a feature-complete version can be developed if this turns
