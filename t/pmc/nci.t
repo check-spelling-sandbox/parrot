@@ -970,7 +970,7 @@ SKIP:
   push P2, 0
   push P2, 0
   push P2, .DATATYPE_STRUCT_PTR
-  # attach the unmanged struct as property
+  # attach the unmanaged struct as property
   set P1, P2[-1]
   setprop P1, "_struct", P4
   push P2, 0
@@ -1036,7 +1036,7 @@ OUTPUT
   push P2, 0
   push P2, 0
   set  P2[ '_y' ], .DATATYPE_STRUCT
-  # attach the unmanged struct as property
+  # attach the unmanaged struct as property
   set P1, P2[-1]
   setprop P1, "_struct", P4
   push P2, 0
@@ -1134,7 +1134,7 @@ SKIP:
   push P2, 0
   push P2, 0
   push P2, .DATATYPE_STRUCT
-  # attach the unmanged struct as property
+  # attach the unmanaged struct as property
   set P1, P2[-1]
   setprop P1, "_struct", P4
   push P2, 0
@@ -1190,7 +1190,7 @@ OUTPUT
   push P2, 0
   push P2, 0
   push P2, .DATATYPE_STRUCT
-  # attach the unmanged struct as property
+  # attach the unmanaged struct as property
   set P1, P2[-1]
   setprop P1, "_struct", P4
   push P2, 0
@@ -1246,7 +1246,7 @@ OUTPUT
   push P2, 0
   push P2, 0
   set P2["_y"], .DATATYPE_STRUCT
-  # attach the unmanged struct as property
+  # attach the unmanaged struct as property
   set P1, P2[-1]
   setprop P1, "_struct", P4
   push P2, 0
