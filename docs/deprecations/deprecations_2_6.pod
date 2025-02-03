@@ -22,7 +22,7 @@ This op was used to determine the size of a PMC's C-level struct given a
 numerical PMC type id.  This op was deprecated because numerical PMC id values
 should not be exposed to PIR-level code.
 
-=head3 Replacment
+=head3 Replacement
 
 No replacement currently exists because no core, library or HLL code was found
 to rely on this op.  If this functionality is needed, a string-based version
@@ -40,7 +40,7 @@ See TT #1585
 
 Make string null checks look like a Parrot API function.
 
-=head3 Replacment
+=head3 Replacement
 
 Replace uses of the C function STRING_is_null with Parrot_str_is_null.
 Parrot_str_is_null is a drop-in replacement for STRING_is_null.
@@ -60,7 +60,7 @@ Parrot moved to immutable strings for performance reasons.  With immutable
 strings, a PIR-level string is never changed once it's been created.  This
 means that ops that work on a string in-place no longer make sense.
 
-=head3 Replacment
+=head3 Replacement
 
 PIR code should be changed as follows:
 

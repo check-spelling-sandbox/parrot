@@ -19,7 +19,7 @@ encoding will be removed.
 
 After the charset/encoding merge, they're unneeded.
 
-=head3 Replacment
+=head3 Replacement
 
 Use the corresponding encoding opcodes instead.
 
@@ -62,7 +62,7 @@ See TT #443 and [wiki:PCCMigrationNotes] for details.
 
 This function didn't conform to Parrot's naming conventions.
 
-=head3 Replacment
+=head3 Replacement
 
 Use Parrot_pcc_invoke_method_from_c_arg instead.
 
@@ -88,7 +88,7 @@ found to be unused.
 
 Nothing in Parrot used them and they were therefore untested.
 
-=head3 Replacment
+=head3 Replacement
 
 Use the body of one of the old functions in place of its call.
 
@@ -114,7 +114,7 @@ found; it returns PMCNULL instead.
 
 This is consistent with the other "lookup" opcodes.
 
-=head3 Replacment
+=head3 Replacement
 
 If you want to throw an exception, you must check the result of the opcode and
 throw the exception explicitly.
@@ -132,7 +132,7 @@ See TT #1633
 With the switch to immutable strings, CodeString became very expensive, as it
 did a lot of string concatenations.
 
-=head3 Replacment
+=head3 Replacement
 
 As a replacement for the .emit() functionality, instead use .append_format() in
 StringBuilder.  Only difference from emit() is that newlines are not
@@ -159,7 +159,7 @@ This functionality abused the NCI and went against the initial purpose
 
 This was error prone, generally leading to segfaults.
 
-=head3 Replacment
+=head3 Replacement
 
 If you must have an equivalent, take a look at NativePCCMethod. Otherwise,
 enjoy the fact that your segfaults are now most likely "not implemented"
@@ -179,7 +179,7 @@ It returned a char * instead of a Parrot string.
 
 A new function provides better functionality and there is no need to keep this.
 
-=head3 Replacment
+=head3 Replacement
 
 Parrot_get_runtime_path
 
@@ -195,7 +195,7 @@ See TT #1689
 
 There was a inconsistency, some PMCs used is_tty and others isatty. The decision was to keep isatty.
 
-=head3 Replacment
+=head3 Replacement
 
 Use isatty.
 

@@ -18,7 +18,7 @@ The PARROT_ERRORS_GLOBALS_FLAG constant has been removed.
 
 This flag does not modify the behaviour of parrot in any way.
 
-=head3 Replacment
+=head3 Replacement
 
 Remove all code attempting to set/unset this flag.
 
@@ -34,7 +34,7 @@ The CodeString PMC has been removed
 
 Equivalent and more efficient functionality is available from StringBuilder.
 
-=head3 Replacment
+=head3 Replacement
 
 CodeString contains a number of convenience methods in addition to its core
 functionality.
@@ -83,7 +83,7 @@ It doesn't do anything.
 Also, this is a terrible way to work around register allocator failures if/when
 we get a register allocator.
 
-=head3 Replacment
+=head3 Replacement
 
     s/:unique_reg//g
 
@@ -98,7 +98,7 @@ They're old, crufty, and don't do anything that cannot be achieved by .call.
 
 Except obfuscation of course.
 
-=head3 Replacment
+=head3 Replacement
 
 Use .call. It should be a simple text replacement fix.
 
@@ -124,7 +124,7 @@ optimizers).
 They don't fit well with the level of the rest of parrot's opcodes.
 They make register lifetime analysis impossible, preventing many optimizations.
 
-=head3 Replacment
+=head3 Replacement
 
 If you really are using this, rethink your code. Stop using the register frame
 as an aggregate. Use an object aggregate in stead.
@@ -139,7 +139,7 @@ The exchange ops are deprecated.
 
 They operate at too low a level to be useful as parrot ops.
 
-=head3 Replacment
+=head3 Replacement
 
 You aren't using this. Seriously?
 
@@ -163,7 +163,7 @@ are deprecated.
 
 After the charset/encoding merge, they're unneeded.
 
-=head3 Replacment
+=head3 Replacement
 
 They can be replaced with
 
@@ -190,7 +190,7 @@ The remaining functions are:
 
 They're old cruft.
 
-=head3 Replacment
+=head3 Replacement
 
 string_make should be replaced with Parrot_str_new_init.
 You can use Parrot_find_encoding to get an encoding from a cstring.
@@ -215,7 +215,7 @@ HLLs may need its own version with different name and semantic, having a
 generic one is confusing. For other usages string registers are more
 convenient.
 
-=head3 Replacment
+=head3 Replacement
 
 Use string registers and the downcase opcode.
 
