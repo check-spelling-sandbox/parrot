@@ -108,7 +108,7 @@ To turn off ncurses just in case.
 
 =head2 Variable indices
 
-Column, rows, and sqares have zero-based indices. Squares are
+Column, rows, and squares have zero-based indices. Squares are
 numbered from top left to bottom right.
 
 =head2 Sudoku Class attributes
