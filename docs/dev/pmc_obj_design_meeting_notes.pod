@@ -82,7 +82,7 @@ than STATIC_SELF. Where is the non-dispatching version likely to be used
 and why?
 
 B<Att:> SELF is just a synonym for I<pmc> - the object - above is talking
-about SELF.method() and alikes. See F<lib/Parrot/Pmc2c.pm>.
+about SELF.method() and alike. See F<lib/Parrot/Pmc2c.pm>.
 
 
 =item composition is almost non-existent (roles would be nice)
