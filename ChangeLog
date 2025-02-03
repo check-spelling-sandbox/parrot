@@ -10738,7 +10738,7 @@
     be
         useful for multiple things in the future, including better
     trace
-        output and the crystalizing loader.
+        output and the crystallizing loader.
 
       * The DO_OP macro is now simpler and doesn't require explicit
         temporaries.
