@@ -25,7 +25,7 @@ The datatype is defined by constants declared in F<datatypes.pasm>.
 
 =item Array Size
 
-The second initializer item, if set to a value greater then 1, defines the
+The second initializer item, if set to a value greater than 1, defines the
 struct element to consist of an array of the given data type.
 
 =item Byte Offset

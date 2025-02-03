@@ -394,7 +394,7 @@ X<cmp (comparison);opcode (PASM)>
 
   cmp R<DEST>, R<VAL1>, R<VAL2>
 
-Set R<DEST> to 1 if R<VAL1> is greater then R<VAL2>, to -1 if it's less then
+Set R<DEST> to 1 if R<VAL1> is greater than R<VAL2>, to -1 if it's less than
 R<VAL2> or to zero if both are equal. If R<VAL1> and R<VAL2> are both PMCs,
 then the type of comparison depends on R<VAL1>.
 

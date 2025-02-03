@@ -1340,7 +1340,7 @@ void     public_mSTATs();
   might set to a value close to the average size of a process
   (program) running on your system.  Releasing this much memory
   would allow such a process to run in memory.  Generally, it's
-  worth it to tune for trimming rather tham memory mapping when a
+  worth it to tune for trimming rather than memory mapping when a
   program undergoes phases where several large chunks are
   allocated and released in ways that can reuse each other's
   storage, perhaps mixed with phases where there are no such

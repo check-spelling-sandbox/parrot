@@ -111,7 +111,7 @@ pasm_output_is( <<'CODE', <<'OUTPUT', "SIGHUP event - loop", todo => 'instable s
 
 lp: dec I20
     if I20, lp
-    # if 4G loops take less then 1 second, this will fail :)
+    # if 4G loops take less than 1 second, this will fail :)
     print "never\n"
     end
 CODE
