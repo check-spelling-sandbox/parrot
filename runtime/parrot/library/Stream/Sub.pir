@@ -31,8 +31,8 @@ cannot be called from arbitrary locations.
 You have to provide a Sub PMC that gets called when you call C<read> for the
 first time. This sub gets the stream passed in as P2 ("self" if you declare it
 as a method). You can pass it to other functions if you want.
-Arguments passed to read on its first invokation are forwarded to the sub you
-provide. This invokation looks like a method call, but it isn't one from a
+Arguments passed to read on its first invocation are forwarded to the sub you
+provide. This invocation looks like a method call, but it isn't one from a
 technical point of view.
 
 This special "method" can call C<write>, which will internally create a
