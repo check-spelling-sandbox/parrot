@@ -28,7 +28,7 @@ pmclass EventHandler extends Sub provides invokable auto_attrs {
     ATTR STRING *type;          /* the type of the event to handle */
     ATTR PMC    *code;          /* the code object to execute */
     ATTR PMC    *interp;        /* the registered interpreter */
-    ATTR INTVAL  priority;      /* the minimum priority threshhold of events */
+    ATTR INTVAL  priority;      /* the minimum priority threshold of events */
 
 /*
 
@@ -75,7 +75,7 @@ a STRING recording the type of event to handle
 
 =item C<priority>
 
-the minimum threshhold of priority which the event must meet or exceed for the
+the minimum threshold of priority which the event must meet or exceed for the
 handler to care
 
 =back

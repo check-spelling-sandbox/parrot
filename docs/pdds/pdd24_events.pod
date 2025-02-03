@@ -173,8 +173,8 @@ The type of event it handles
 
 =item 2
 
-A minimum threshhold of priority, below which it will ignore the event even if
-it is the right type. The default threshhold is 0, accepting all event
+A minimum threshold of priority, below which it will ignore the event even if
+it is the right type. The default threshold is 0, accepting all event
 priorities.
 
 =item 3
@@ -221,7 +221,7 @@ Retrieve the type of event this handler responds to.
 
     set_integer_native(INTVAL)
 
-Set the minimum threshhold of priority.
+Set the minimum threshold of priority.
 
 =item set_pmc(PMC *)
 
