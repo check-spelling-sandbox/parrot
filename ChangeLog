@@ -1507,7 +1507,7 @@
     - API Changes
       + The Array PMC was removed.
       + Several deprecated vtables were removed.
-      + The OrderedHash PMC was substantialy improved.
+      + The OrderedHash PMC was substantially improved.
     - Platforms
       + Packaging improvements on some operating systems.
     - Tools
