@@ -80,7 +80,7 @@ sub which {
 # print STDERR "$file\n";
 
             if ((-x $file or    # executable, normal case
-                 ($Is_MacOS ||  # MacOS doesn't mark as executable so we check -e
+                 ($Is_MacOS ||  # macOS doesn't mark as executable so we check -e
                   ($Is_DOSish and grep { $file =~ /$_$/i } @path_ext[1..$#path_ext])
                                 # DOSish systems don't pass -x on non-exe/bat/com files.
                                 # so we check -e. However, we don't want to pass -e on files
@@ -189,12 +189,12 @@ matching C<$short_exe_name>.
 
 =head1 Bugs and Caveats
 
-Not tested on VMS or MacOS, although there is platform specific code
+Not tested on VMS or macOS, although there is platform specific code
 for those. Anyone who haves a second would be very kind to send me a
 report of how it went.
 
 File::Spec adds the current directory to the front of PATH if on
-Win32, VMS or MacOS. I have no knowledge of those so don't know if the
+Win32, VMS or macOS. I have no knowledge of those so don't know if the
 current directory is searced first or not. Could someone please tell
 me?
 

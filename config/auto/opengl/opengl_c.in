@@ -25,7 +25,7 @@ main(int argc, char *argv[])
 #elif  FREEGLUT
     printf("%d freeglut\n",    GLUT_API_VERSION);
 #elif  GLUT_MACOSX_IMPLEMENTATION
-    printf("%d MacOSX_GLUT\n", GLUT_API_VERSION);
+    printf("%d macOS_GLUT\n",  GLUT_API_VERSION);
 #else
     printf("%d GLUT\n",        GLUT_API_VERSION);
 #endif

@@ -335,7 +335,7 @@ sub _handle_icushared {
             $arg->{without} = 1;
         }
         else {
-            # on MacOS X there's sometimes an erroneous \c at the end of the
+            # on macOS there's sometimes an erroneous \c at the end of the
             # output line. Remove it.
             # see TT #1722
             $icushared =~ s/\s\\c\s?/ /g;
