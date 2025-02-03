@@ -15,7 +15,7 @@ Test ResizablePMCArray.splice heap-buffer overflows with negative count argument
 under AddressSanitizer or valgrind.
 
 Test the wrong splice shrink fast branch, as described in GH #1174, with the
-params offset=3,size=2,tresh=8 and off=0, count=1, elems1=0, tail=1, sizediff=1.
+params offset=3,size=2,thresh=8 and off=0, count=1, elems1=0, tail=1, sizediff=1.
 
 Test wrong splice grow branch. #1175
 

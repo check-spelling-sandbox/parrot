@@ -784,16 +784,16 @@ Creates and returns a copy of the array.
 
     VTABLE PMC *clone() :no_wb {
         /* keep the slack and offset */
-        PMC * const copy   = Parrot_pmc_new(INTERP, SELF->vtable->base_type);
-        const INTVAL size  = PMC_size(SELF);
-        const INTVAL tresh = PMC_threshold(SELF);
+        PMC * const copy    = Parrot_pmc_new(INTERP, SELF->vtable->base_type);
+        const INTVAL size   = PMC_size(SELF);
+        const INTVAL thresh = PMC_threshold(SELF);
         if (size) {
             PMC_size(copy)  = size;
-            PMC_array(copy) = mem_gc_allocate_n_typed(INTERP, tresh, PMC *);
-            mem_copy_n_typed(PMC_array(copy), PMC_array(SELF), tresh, PMC *);
+            PMC_array(copy) = mem_gc_allocate_n_typed(INTERP, thresh, PMC *);
+            mem_copy_n_typed(PMC_array(copy), PMC_array(SELF), thresh, PMC *);
             PObj_custom_mark_destroy_SETALL(copy);
         }
-        PMC_threshold(copy) = tresh;
+        PMC_threshold(copy) = thresh;
         PMC_offset(copy)    = PMC_offset(SELF);
         return copy;
     }
