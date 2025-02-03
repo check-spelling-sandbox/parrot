@@ -795,7 +795,7 @@ is at the beginning of the rule, right after the C<m>, C<s>, or C<rx>, or after
 the name in a named rule. Modifiers cannot attach to the outside of a bare
 C</.../>. For example:
 
-  m:i/marvin/ # case insensitive
+  m:i/marvin/ # case-insensitive
   rule names :i { marvin | ford | arthur }
 
 You may group single-character modifiers, but you must separate longer
@@ -809,7 +809,7 @@ Most modifiers can also appear inside the rule when attached to rule or
 grouping delimiters. Internal modifiers are lexically scoped to their enclosing
 delimiters, so can alter subpatterns:
 
-  m/:w I saw [:i zaphod] / # only 'zaphod' is case insensitive
+  m/:w I saw [:i zaphod] / # only 'zaphod' is case-insensitive
 
 The repetition modifiers (C<:R<N>x>, C<:R<N>th>, C<:once>, C<:globally>, and
 C<:exhaustive>) and the continue modifier (C<:cont>) alter the return value of

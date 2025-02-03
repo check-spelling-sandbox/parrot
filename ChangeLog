@@ -11148,7 +11148,7 @@
 
 2001-09-27 15:15  thgibbs
 
-    * assemble.pl: Added case insensitive matches to hex and binary
+    * assemble.pl: Added case-insensitive matches to hex and binary
     characters
 
     Courtesy of: Johnathan Scott Duff <duff@cbi.tamucc.edu>

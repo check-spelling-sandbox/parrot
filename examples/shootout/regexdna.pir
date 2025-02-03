@@ -84,7 +84,7 @@ process:
         chunk    = $P1.'read'(65535)
         chunklen = length chunk
 	unless chunklen goto endwhile
-	# They don't say you have to match case insenitive...
+	# They don't say you have to match case-insensitive...
 	chunk = downcase chunk
 	seq .= chunk
 	goto process
