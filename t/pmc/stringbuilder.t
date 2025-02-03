@@ -161,7 +161,7 @@ Tests the C<StringBuilder> PMC.
     push sb, iso-8859-1:"tötsch"
 
     $S0 = sb
-    is( $S0, iso-8859-1:"leo tötsch", "Unicode strings appened")
+    is( $S0, iso-8859-1:"leo tötsch", "Unicode strings appended")
 .end
 
 .sub 'test_i_concatenate'
