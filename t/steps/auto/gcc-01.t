@@ -229,7 +229,7 @@ is($step->result(), q{no}, "Got expected result");
 
 $conf->replenish($serialized);
 
-########## _evaluate_gcc(); maintaiiner; cage ##########
+########## _evaluate_gcc(); maintainer; cage ##########
 
 ($args, $step_list_ref) = process_options( {
     argv            => [ q{--maintainer}, q{--cage} ],
