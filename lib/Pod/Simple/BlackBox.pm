@@ -751,7 +751,7 @@ sub _ponder_paragraph_buffer {
             # as expected!
 
             if( $para->[1]{'~_freaky_para_hack'} ) {
-              DEBUG and print "Accomodating '=item * Foo' tolerance hack.\n";
+              DEBUG and print "Accommodating '=item * Foo' tolerance hack.\n";
               push @$para, delete $para->[1]{'~_freaky_para_hack'};
             }
 
@@ -1361,7 +1361,7 @@ sub _ponder_item {
       # as expected!
 
       if( $para->[1]{'~_freaky_para_hack'} ) {
-        DEBUG and print "Accomodating '=item * Foo' tolerance hack.\n";
+        DEBUG and print "Accommodating '=item * Foo' tolerance hack.\n";
         push @$para, delete $para->[1]{'~_freaky_para_hack'};
       }
 
