@@ -17,7 +17,7 @@ Parrot has 2 slots for the frame builder function - a callback PMC and a user da
 callback PMC is expected to return a valid C<nci_fb_func_t> native function from its C<get_pointer>
 vtable.
 
-The callback for a framebuilder should be registerd in parrot's C<iglobals> array under
+The callback for a framebuilder should be registered in parrot's C<iglobals> array under
 C<NCI_FB_CB>. The user data is likewise registered in C<iglobals> under C<NCI_FB_UD>.
 
 =head2 C<nci_fb_func_t>
