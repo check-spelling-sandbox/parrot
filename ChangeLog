@@ -1488,7 +1488,7 @@
 2010-03-16    Release 2.2.0
     - Core changes
       + Most internal allocations now use the GC
-      + RNG non-randomnes fixes
+      + RNG non-randomness fixes
       + Elimination of much dead code
     - API changes
       + PMCs can now be initialized from an int
