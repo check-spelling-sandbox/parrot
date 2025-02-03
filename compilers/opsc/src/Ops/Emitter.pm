@@ -241,7 +241,7 @@ op_lib_t | ~ self.bs ~ q|op_lib = {| ~ qq|
 method _emit_init_func($fh) {
 
     my $init1    := self.trans.init_func_init1;
-    my $dispatch := self.trans.init_func_disaptch;
+    my $dispatch := self.trans.init_func_dispatch;
 
     # TODO There is a bug in NQP about \{
     $fh.print(qq|\n\n| ~ (self.flags<core> ?? "PARROT_EXPORT\n" !! '')

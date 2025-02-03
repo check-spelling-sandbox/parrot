@@ -35,7 +35,7 @@ method emit_op_lookup($fh) {
 }
 
 method init_func_init1() { '' }
-method init_func_disaptch() { '' }
+method init_func_dispatch() { '' }
 
 method op_info($emitter) { 'NULL' }
 method op_func($emitter) { 'NULL' }

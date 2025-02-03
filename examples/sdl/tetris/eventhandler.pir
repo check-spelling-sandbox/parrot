@@ -40,7 +40,7 @@ END:
 
     app = self."app"()
     app."setTimer"( 0 )
-    $P0 = get_hll_global ['SDL'; 'Event'], "disptach_event"
+    $P0 = get_hll_global ['SDL'; 'Event'], "dispatch_event"
     ret = $P0()
     app."setTimer"( 1 )
     .return (ret)
