@@ -204,7 +204,7 @@ catchall:
         self.send('pir_source', filename)
 
 # Representation of a call to an opfunc, including values of arguments
-# Note that argumens are literal, e.g. '$P0', '"foo"', etc
+# Note that arguments are literal, e.g. '$P0', '"foo"', etc
 class OpfuncCall:
     def __init__(self, name, sig):
         self.arg_types = []
