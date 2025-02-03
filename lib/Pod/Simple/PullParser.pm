@@ -187,7 +187,7 @@ sub get_token {
            != length( ${ $self->{'source_scalar_ref'} });
          # I.e., unless it's a zero-length "empty line" at the very
          #  end of "foo\nbar\n" (i.e., between the \n and the EOS).
-      } else { # that's the end.  Byebye
+      } else { # that's the end.  Bye bye
         $self->SUPER::parse_lines(undef);
         delete $self->{'source_scalar_ref'};
         DEBUG and print "That's it for that source scalarref!  Killing.\n";
