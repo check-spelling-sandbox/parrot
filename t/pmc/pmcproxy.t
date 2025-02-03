@@ -154,7 +154,7 @@ Tests the PMCProxy PMC.
 
     $P3 = new ['Role']
     $P2.'add_role'($P3)
-    ok(1, 'done with method call overridding')
+    ok(1, 'done with method call overriding')
 .end
 
 .sub no_add_role_non_vtable

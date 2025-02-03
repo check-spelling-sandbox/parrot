@@ -2818,7 +2818,7 @@
        tutorial examples from "Learning PIR" talk, and PDD15 metamodel diagrams
     - Implementation:
      + reduced memory footprint when using named registers
-     + implemented overridding of vtable methods by PDD15 classes
+     + implemented overriding of vtable methods by PDD15 classes
      + improved PDD15 support for 'new', 'instantiate', and others
      + added makefile targets to ease core and HLL makefile regeneration
      + updated parrot debugger, "pdb", to allow loading of commands from file
