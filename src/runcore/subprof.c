@@ -717,7 +717,7 @@ buildcallchain(PARROT_INTERP,
         /* convert cpc into line */
         if (spdata->profile_type != SUBPROF_TYPE_OPS) {
             int i;
-            /* might do a binary seach instead */
+            /* might do a binary search instead */
             for (i = 0, li = csp->lines; i < csp->nlines; i++, li++)
                 if (cpc >= li->op_offs && cpc < li[1].op_offs)
                     break;
