@@ -17,7 +17,7 @@ end of the string.
 
 C<substr> no longer provides an in-place replace, however there is a
 C<replace> operator that allows this type of operation to be performed,
-although not in-place.  The C<replace> operator assigns a new_srting,
+although not in-place.  The C<replace> operator assigns a new_string,
 taking as arguments, the old_string, a start and end position, and a
 string to be inserted in between the start and end positions.
 
