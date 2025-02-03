@@ -1288,7 +1288,7 @@ void     public_mSTATs();
   This malloc manages fastbins very conservatively yet still
   efficiently, so fragmentation is rarely a problem for values less
   than or equal to the default.  The maximum supported value of MXFAST
-  is 80. You wouldn't want it any higher than this anyway.  Fastbins
+  is 80. You wouldn't want it any greater than this anyway.  Fastbins
   are designed especially for use with many small structs, objects or
   strings -- the default handles structs/objects/arrays with sizes up
   to 16 4byte fields, or small strings representing words, tokens,

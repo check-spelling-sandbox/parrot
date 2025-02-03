@@ -58,7 +58,7 @@ typedef enum Forward_flag {
    The buffer prolog consists of possible padding and a pointer to the
    Memory_Block containing the buffer. There are two flags in the low-order
    bits of the pointer (see string.h). Padding is only required if the
-   alignment of the data portion is higher than that of a pointer.
+   alignment of the data portion is greater than that of a pointer.
    This was not the case as of 8/2010.
 */
 

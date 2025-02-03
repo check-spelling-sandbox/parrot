@@ -1457,7 +1457,7 @@ gc_gms_get_gc_info(PARROT_INTERP, Interpinfo_enum which)
       case IMPATIENT_PMCS:
         return self->num_early_gc_PMCs;
       case TOTAL_PMCS: {
-        /* It's higher than actual number of allocated PMCs */
+        /* It's greater than actual number of allocated PMCs */
         size_t ret = 0;
         size_t i;
         for (i = 0; i < GC_MAX_GENERATIONS; i++) {
@@ -1466,7 +1466,7 @@ gc_gms_get_gc_info(PARROT_INTERP, Interpinfo_enum which)
         return ret;
       }
       case ACTIVE_PMCS: {
-        /* It's higher than actual number of allocated PMCs */
+        /* It's greater than actual number of allocated PMCs */
         size_t ret = 0;
         size_t i;
         for (i = 0; i < GC_MAX_GENERATIONS; i++) {

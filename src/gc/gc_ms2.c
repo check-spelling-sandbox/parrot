@@ -591,10 +591,10 @@ gc_ms2_get_gc_info(PARROT_INTERP, Interpinfo_enum which)
       case IMPATIENT_PMCS:
         return self->num_early_gc_PMCs;
       case TOTAL_PMCS:
-        /* It's higher than actual number of allocated PMCs */
+        /* It's greater than actual number of allocated PMCs */
         return Parrot_pa_count_allocated(interp, self->objects);
       case ACTIVE_PMCS:
-        /* It's higher than actual number of allocated PMCs */
+        /* It's greater than actual number of allocated PMCs */
         return Parrot_pa_count_used(interp, self->objects);
       default:
         return Parrot_gc_get_info(interp, which, &gc_sys->stats);

@@ -640,7 +640,7 @@ taken.
  1                 Seek from the current position
  2                 Seek from the end of the file
 
-C<offs_overflow> is optional and is used to handle offsets higher than 2Gb on
+C<offs_overflow> is optional and is used to handle offsets greater than 2Gb on
 32bit systems.
 
 =cut
