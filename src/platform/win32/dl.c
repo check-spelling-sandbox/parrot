@@ -83,7 +83,7 @@ exported function pointer from that HMODULE. This relies on a trick where the
 HMODULE value is the pointer to the base address of allocated memory for that
 module. This relationship appears to hold for almost all non-ancient 32- and
 64-bit versions of windows. There is no guarantee that this relationship will
-hold on future versions of windows. Passing tests, expecially t/pmc/nci.t and
+hold on future versions of windows. Passing tests, especially t/pmc/nci.t and
 t/library/nciutils.t are a good indicator that this code is working as
 expected
 
