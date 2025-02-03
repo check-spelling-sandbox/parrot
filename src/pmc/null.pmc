@@ -87,7 +87,7 @@ Returns true if value is also a null PMC, false otherwise.
 
 =item C<PMC *find_method(STRING *method_name)>
 
-Gives a more informative message than the automaticaly generated version.
+Gives a more informative message than the automatically generated version.
 
 =cut
 
