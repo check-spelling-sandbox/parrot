@@ -4646,7 +4646,7 @@
     There's only one semi-major change, which noone needs to worry
     about just yet.  That's a change from PDD Format 1 to PDD Format
     6.0 - rationale can be found under 'Standard (Version #)' of the
-    STANDARDS TRACK infomation.  Don't worry about this yet, because it
+    STANDARDS TRACK information.  Don't worry about this yet, because it
     should be 6.0.0, and we need to discuss Perl versus Parrot with
     PDDs.
 
