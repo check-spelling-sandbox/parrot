@@ -365,7 +365,7 @@ integer-constants, the latter will match and a syntax error will result.
     }
 
     # with action method:
-    method term:sym<float_constant_long>($/) { # name worksaround lack of LTM
+    method term:sym<float_constant_long>($/) { # name works around lack of LTM
         make PAST::Val.new(:value(+$/), :returns<Float>);
     }
 

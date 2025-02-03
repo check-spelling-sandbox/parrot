@@ -357,7 +357,7 @@ method string_constant($/) {
     $past.returns('String');
     make $past;
 }
-method term:sym<float_constant_long>($/) { # name worksaround lack of LTM
+method term:sym<float_constant_long>($/) { # name works around lack of LTM
     make PAST::Val.new(:value(+$/), :returns<Float>);
 }
 method term:sym<primary>($/) {
