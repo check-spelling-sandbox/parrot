@@ -219,7 +219,7 @@ struct PackFile_ByteCode {
     op_func_t                    *op_func_table;   /* opcode dispatch table */
     op_func_t                    *save_func_table; /* for when we hijack op_func_table */
     op_info_t                   **op_info_table;
-    size_t                        n_libdeps;       /* number of library dependancies */
+    size_t                        n_libdeps;       /* number of library dependencies */
     STRING                      **libdeps;         /* names of prerequisite libraries */
 };
 
