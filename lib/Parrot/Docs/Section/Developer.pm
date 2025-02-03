@@ -53,7 +53,7 @@ sub new {
         ),
         $self->new_group( 'Articles',                      '', 'docs/user/pir',
             $self->new_item( 'Array base class', 'docs/pmc/array.pod'),
-            $self->new_item( 'Accesing C Structs from Parrot', 'docs/pmc/struct.pod'),
+            $self->new_item( 'Accessing C Structs from Parrot', 'docs/pmc/struct.pod'),
             $self->new_item( 'Parrot Subroutines', 'docs/pmc/subs.pod'),
         ),
     );
