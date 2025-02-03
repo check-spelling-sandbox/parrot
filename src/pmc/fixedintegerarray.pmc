@@ -309,7 +309,7 @@ Returns the Parrot string representation C<key>.
 Get a hashvalue for this PMC.
 
 Providing a non-default C<hashvalue()> implementation avoids creating
-unecessary string temporaries.
+unnecessary string temporaries.
 
 =cut
 
