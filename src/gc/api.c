@@ -107,7 +107,7 @@ implementation, and malloc wrappers for various purposes. These are unused.
 
 Marks the PObj as "alive" for the Garbage Collector. Takes a pointer to a PObj,
 and performs necessary marking to ensure the PMC and its direct children nodes
-are marked alive. Implementation is generally dependant on the particular
+are marked alive. Implementation is generally dependent on the particular
 garbage collector in use.
 
 Previously known as C<pobject_lives>.
