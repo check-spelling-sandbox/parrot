@@ -903,7 +903,7 @@ The C<.include> directive's search order is subject to change.
 
 =item * C<.macro> <identifier> [<parameters>]
 
-The C<.macro> directive starts the a macro definition named by the specified
+The C<.macro> directive starts a macro definition named by the specified
 identifier. The optional parameter list is a comma-separated list of
 identifiers, enclosed in parentheses.  See C<.endm> for ending the macro
 definition.
