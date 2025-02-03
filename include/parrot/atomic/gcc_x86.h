@@ -3,7 +3,7 @@
  *
  * This header provides an implementation of atomic
  * operations on x86 platforms with GCC-style
- * inline assembly suppport.
+ * inline assembly support.
  */
 
 #ifndef PARROT_ATOMIC_GCC_X86_H_GUARD

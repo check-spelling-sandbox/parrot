@@ -3,7 +3,7 @@
  *  Overview:
  *     This header provides an implementation of atomic
  *     operations on PowerPC platforms with GCC-style
- *     inline assembly suppport.
+ *     inline assembly support.
  *  Data Structure and Algorithms:
  *  History:
  *  Notes:

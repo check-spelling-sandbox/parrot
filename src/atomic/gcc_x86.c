@@ -16,7 +16,7 @@ src/atomic/gcc_x86.c
 =head1 DESCRIPTION
 
 An implementation of atomic operations on x86 platforms with GCC-style inline
-assembly suppport.
+assembly support.
 
 =head2 Functions
 
