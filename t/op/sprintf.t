@@ -42,7 +42,7 @@ data expression should return a reference to an array having the requisite
 number of elements.  Even so, subterfuge is sometimes required:
 see tests for C<%n> and C<%p>.
 
-=head1 XXX: FIXME: TODO:
+=head1 XXX: FIXME: TODO
 
 Tests that are expected to fail on a certain OS can be marked as such
 by trailing the comment with a C<skip:> section. Skips are tags separated
