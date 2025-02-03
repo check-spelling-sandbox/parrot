@@ -18,7 +18,7 @@ release from U<http://www.parrot.org/release/supported>.
 
 You need a C compiler and a make utility to build Parrot from source code --
 usually C<gcc> and C<make>, but Parrot can build with standard compiler
-toolchains on different operating systems.  Perl 5.8 is also a prerequiste for
+toolchains on different operating systems.  Perl 5.8 is also a prerequisite for
 configuring and building Parrot.
 
 If you have these dependencies installed, build the core virtual machine and
