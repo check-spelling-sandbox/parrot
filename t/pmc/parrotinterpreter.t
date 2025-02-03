@@ -128,7 +128,7 @@ Tests the ParrotInterpreter PMC.
     $I0 = 0
   caught:
     pop_eh
-    ok($I0, "Access to non-existent field throws exception")
+    ok($I0, "Access to nonexistent field throws exception")
 
     push_eh wrong_depth
     $I0 = 1

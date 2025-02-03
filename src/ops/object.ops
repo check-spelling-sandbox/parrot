@@ -25,7 +25,7 @@ Call method $2 with invocant $1 and generate a new return continuation.
 The invocant ($1) is used for method lookup. The object is passed as
 the first argument in B<set_args>.
 
-Throws a Method_Not_Found_Exception for a non-existent method.
+Throws a Method_Not_Found_Exception for a nonexistent method.
 
 =item B<callmethodcc>(invar PMC, invar PMC)
 

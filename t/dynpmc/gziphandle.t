@@ -111,7 +111,7 @@ Tests the C<GzipHandle> PMC, a zlib wrapper.
 .end
 
 .sub 'test_bad'
-throws_substring(<<"CODE", "gzopen fails", "gzopen non-existent file")
+throws_substring(<<"CODE", "gzopen fails", "gzopen nonexistent file")
     .sub main
         $P3 = new 'GzipHandle'
         $P3.'open'('t/dynpmc/gziphandle.t.gz', 'rb')

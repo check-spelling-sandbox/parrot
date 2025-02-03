@@ -45,7 +45,7 @@ Tests Parrot's experimental vivify opcode.
     is( $P3, 123, '... even if stored in multiple locations' )
 
     $P3 = vivify $P0, 2, [ 'Integer' ]
-    is( $P3, 0, 'vivify should create new PMC if not-existent' )
+    is( $P3, 0, 'vivify should create new PMC if nonexistent' )
     isa_ok( $P3, 'Integer', 'new PMC should have requested type' )
 
     $P4 = $P0[2]
@@ -72,7 +72,7 @@ Tests Parrot's experimental vivify opcode.
     is( $P3, 123, '... even if stored in multiple locations' )
 
     $P3 = vivify $P0, 'two', [ 'Integer' ]
-    is( $P3, 0, 'vivify should create new PMC if not-existent' )
+    is( $P3, 0, 'vivify should create new PMC if nonexistent' )
     isa_ok( $P3, 'Integer', 'new PMC should have requested type' )
 
     $P4 = $P0['two']

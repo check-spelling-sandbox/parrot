@@ -757,7 +757,7 @@ Deletes the key C<*key> from the hash.
 
 =item C<PMC *clone()>
 
-Create a clone of the OrderedHash. Non-existent keys are compacted.  Accessing
+Create a clone of the OrderedHash. Nonexistent keys are compacted.  Accessing
 the clone via integers has different indices, if items were deleted.
 
 =cut

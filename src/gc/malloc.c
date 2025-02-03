@@ -1922,7 +1922,7 @@ nextchunk-> +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
     word before the current chunk size contains the previous chunk
     size, and can be used to find the front of the previous chunk.
     The very first chunk allocated always has this bit set,
-    preventing access to non-existent (or non-owned) memory. If
+    preventing access to nonexistent (or non-owned) memory. If
     prev_inuse is set for any given chunk, then you CANNOT determine
     the size of the previous chunk, and might even get a memory
     addressing fault when trying to do so.

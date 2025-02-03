@@ -48,7 +48,7 @@ expected absolute filenames.
     .local string location
     location_sub = get_global ['_parrotlib'], "include_file_location"
     location     = location_sub( 'nonexistent.pasm' )
-    is(location, '', 'include file location non-existent')
+    is(location, '', 'include file location nonexistent')
 .end
 
 # Testing imcc_compile_file_location
@@ -66,7 +66,7 @@ expected absolute filenames.
     .local string location
     location_sub = get_global ['_parrotlib'], "imcc_compile_file_location"
     location     = location_sub( 'nonexistent.pbc' )
-    is(location, '', 'imcc compile file location, non-existent')
+    is(location, '', 'imcc compile file location, nonexistent')
 .end
 
 # Testing dynext_location
@@ -92,7 +92,7 @@ expected absolute filenames.
     .local string location
     location_sub = get_global ['_parrotlib'], "imcc_compile_file_location"
     location     = location_sub( 'nonexistent' )
-    is(location, '', 'dynext location non-existent')
+    is(location, '', 'dynext location nonexistent')
 .end
 
 =head1 AUTHOR

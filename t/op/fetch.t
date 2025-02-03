@@ -41,7 +41,7 @@ Tests Parrot's experimental fetch opcode.
     is( $P3, 123, '... even if stored in multiple locations' )
 
     $P3 = fetch $P0, 2, [ 'Integer' ]
-    is( $P3, 0, 'fetch should create new PMC if not-existent' )
+    is( $P3, 0, 'fetch should create new PMC if nonexistent' )
     isa_ok( $P3, 'Integer', 'new PMC should have type Integer' )
 .end
 
@@ -60,7 +60,7 @@ Tests Parrot's experimental fetch opcode.
     is( $P3, 123, '... even if stored in multiple locations' )
 
     $P3 = fetch $P0, 'two', [ 'Integer' ]
-    is( $P3, 0, 'fetch should create new PMC if not-existent' )
+    is( $P3, 0, 'fetch should create new PMC if nonexistent' )
     isa_ok( $P3, 'Integer', 'new PMC should have type Integer' )
 .end
 

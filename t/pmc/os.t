@@ -286,7 +286,7 @@ finally1:
 
         $P1."chdir"("..")
         push_eh eh2
-        $P1."rm"('non-existent-directory')
+        $P1."rm"('nonexistent-directory')
         say "failed"
         goto finally2
 eh2:
@@ -373,7 +373,7 @@ CODE
 pir_error_output_like( <<'CODE', <<'OUTPUT', 'test bad stat');
 .sub main :main
         $P1 = new ['OS']
-        $P2 = $P1."stat"("non-existent something")
+        $P2 = $P1."stat"("nonexistent something")
 .end
 CODE
 /stat failed/
@@ -426,7 +426,7 @@ CODE
 pir_error_output_like( <<'CODE', <<'OUTPUT', 'Test bad OS.readdir' );
 .sub main :main
     $P1 = new ['OS']
-    $P2 = $P1.'readdir'('non-existent directory')
+    $P2 = $P1.'readdir'('nonexistent directory')
 .end
 CODE
 /readdir failed/
@@ -458,7 +458,7 @@ else {
 pir_error_output_like( <<'CODE', <<"OUT", 'Test bad OS.rename' );
 .sub main :main
     $P1 = new ['OS']
-    $P1.'rename'('some silly non-existent file name', 'arglblargl')
+    $P1.'rename'('some silly nonexistent file name', 'arglblargl')
 .end
 CODE
 /rename failed/
@@ -490,7 +490,7 @@ SKIP: {
         $S2 = sprintf $S1, $P2
         print $S2
 
-        $P3 = $P1."lstat"("non-existent file")
+        $P3 = $P1."lstat"("nonexistent file")
 
         end
 .end
@@ -736,7 +736,7 @@ OUT
     .sub main :main
             $P1 = new ['OS']
 
-            $P1."chmod"("this is another non-existent directory", 420)
+            $P1."chmod"("this is another nonexistent directory", 420)
             say "ok"
 
             end

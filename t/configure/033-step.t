@@ -54,7 +54,7 @@ $nonexistent = $$;
 eval { my $sum = Parrot::Configure::Utils::file_checksum($nonexistent); };
 like(
     $@, qr/Can't open $nonexistent/,    #'
-    "Got expected error message when trying to get checksum on non-existent file"
+    "Got expected error message when trying to get checksum on nonexistent file"
 );
 
 {

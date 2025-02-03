@@ -37,7 +37,7 @@ CODE
 /t' is a directory/
 OUTPUT
 
-pir_error_output_like( <<'CODE', <<'OUTPUT', "load_bytecode on non-existent file" );
+pir_error_output_like( <<'CODE', <<'OUTPUT', "load_bytecode on nonexistent file" );
 .sub main :main
         load_bytecode 'no_file_by_this_name'
 .end

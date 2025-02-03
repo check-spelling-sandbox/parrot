@@ -20,7 +20,7 @@ my $nonexistent = 'config/gen/makefiles/foobar';
 eval { $conf->genfile(  $nonexistent => 'CFLAGS', comment_type => '#', ); };
 like(
     $@, qr/Can't open $nonexistent/,    #'
-    "Got expected error message when non-existent file provided as argument to genfile()."
+    "Got expected error message when nonexistent file provided as argument to genfile()."
 );
 
 {

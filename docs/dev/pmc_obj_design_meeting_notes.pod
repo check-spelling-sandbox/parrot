@@ -85,7 +85,7 @@ B<Att:> SELF is just a synonym for I<pmc> - the object - above is talking
 about SELF.method() and alike. See F<lib/Parrot/Pmc2c.pm>.
 
 
-=item composition is almost non-existent (roles would be nice)
+=item composition is almost nonexistent (roles would be nice)
 
 The current class composition uses interfaces, which seems inadequate. Roles
 may make better composition units, but may not make supporting Perl 5 OO

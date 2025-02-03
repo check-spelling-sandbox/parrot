@@ -35,7 +35,7 @@ eval { $obj = Parrot::Configure::Trace->new( { storable => 'somestrangename.sto'
 like(
     $@,
     qr/^Unable to retrieve storable file of configuration step data/,
-    "Correctly failed due to non-existent config data file"
+    "Correctly failed due to nonexistent config data file"
 );
 
 ok( $obj = Parrot::Configure::Trace->new(), "Constructor returned true" );
@@ -184,11 +184,11 @@ eval { $state = $obj->get_state_at_step(1000000); };
 like(
     $@,
     qr/^Must supply positive integer as step number/,
-    "Correctly failed due to non-existent step"
+    "Correctly failed due to nonexistent step"
 );
 
 eval { $state = $obj->get_state_at_step(q{init::something}); };
-like( $@, qr/^Must supply valid step name/, "Correctly failed due to non-existent step" );
+like( $@, qr/^Must supply valid step name/, "Correctly failed due to nonexistent step" );
 
 pass("Completed all tests in $0");
 

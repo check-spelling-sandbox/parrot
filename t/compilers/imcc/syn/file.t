@@ -351,13 +351,13 @@ OUT
 
 {
 
-    # include a non-existent file and catch the error message
+    # include a nonexistent file and catch the error message
     my $err_msg;
     {
         ($FOO, $temp_pir) = create_tempfile( SUFFIX => '.pir', UNLINK => 1 );
 
         print $FOO <<'END_PIR';
-# Including a non-existent file should produce an error
+# Including a nonexistent file should produce an error
 .include "non_existent.pir"
 # An error should have been raised
 .sub test :main
@@ -377,7 +377,7 @@ END_PIR
         open STDERR, '>&', $OLDERR or die "Can't restore STDERR: $!\n";
     }
 
-    # read a non-existent file and catch the error message
+    # read a nonexistent file and catch the error message
     my $enoent_err_msg;
     {
         open $FOO, '<', 'non_existent.file';
@@ -397,7 +397,7 @@ END_PIR
     }
 
     $err_msg =~ s/\r//g if $^O =~ /^(MSWin32|msys)$/i;
-    is( $err_msg, << "OUT", 'including a non-existent file' );
+    is( $err_msg, << "OUT", 'including a nonexistent file' );
 error:imcc:$enoent_err_msg 'non_existent.pir'
 \tin file '$temp_pir' line 1
 OUT

@@ -77,7 +77,7 @@ writing a core data type.)
 
 You should almost always start by running F<tools/dev/gen_class.pl> to
 generate a skeleton for the class. Let's generate a number type for
-the beautifully non-existent Fooby language:
+the beautifully nonexistent Fooby language:
 
     % perl tools/dev/gen_class.pl FoobyNumber > src/pmc/foobynumber.pmc
 

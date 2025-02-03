@@ -202,7 +202,7 @@ my $testsourcedir = qq{$cwd/t/tools/install/testlib};
             \$stdout,
             \$stderr,
         );
-        ok( $rv, 'install_files() handled non-existent file as expected' );
+        ok( $rv, 'install_files() handled nonexistent file as expected' );
 
         like( $stdout, qr/Installing \.\.\./,
             'Got expected installation message' );

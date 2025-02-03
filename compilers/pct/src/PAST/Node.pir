@@ -765,7 +765,7 @@ attribute hash for symbol C<name>.
 
 =item symbol_defaults([attr1 => val1, attr2 => val2, ... ])
 
-Set default attributes for non-existent symbols in the
+Set default attributes for nonexistent symbols in the
 symbol hash (see C<symbol> above).  If no named arguments
 are given, returns the default attribute hash itself.
 

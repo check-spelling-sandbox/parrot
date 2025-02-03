@@ -318,7 +318,7 @@ alter the state of Parrot's internals in some way.
 Register access functions
 
 The following functions allow the values stored in Parrot's registers to be
-accessed. An attempt to access a non-existent register (e.g. string register
+accessed. An attempt to access a nonexistent register (e.g. string register
 -123) will cause the function to throw an exception (well, it will once we
 actually implement some bounds-checking...).  The value stored in an
 uninitialized register is undefined; it may well be zero (or NULL), but do not

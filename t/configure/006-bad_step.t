@@ -69,7 +69,7 @@ pass("Completed all tests in $0");
 The files in this directory test functionality used by F<Configure.pl>.
 
 The tests in this file examine what happens when you attempt to do a
-C<runsteps> on a non-existent step.
+C<runsteps> on a nonexistent step.
 
 =head1 AUTHOR
 

@@ -53,7 +53,7 @@ use Parrot::BuildUtil;
     like(
         $@,
         qr/open '$phony'/,
-        "Got error message expected upon attempting to slurp non-existent file"
+        "Got error message expected upon attempting to slurp nonexistent file"
     );
 }
 

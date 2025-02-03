@@ -217,10 +217,10 @@ eh:
     ok( $I0, 'exists_keyed_str' )
 
     $I0 = exists $P0[100]
-    nok( $I0, 'exists_keyed_int -- non-existent' )
+    nok( $I0, 'exists_keyed_int -- nonexistent' )
 
     $I0 = exists $P0['bar']
-    nok( $I0, 'exists_keyed_str -- non-existent' )
+    nok( $I0, 'exists_keyed_str -- nonexistent' )
 
     $P1 = new ['CallContext']
     $I0 = exists $P1[1]

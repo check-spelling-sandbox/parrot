@@ -57,11 +57,11 @@ end:
     $P1 = new 'Integer'
     push_eh eh
     $P0['nosuchlex'] = $P1
-    ok(0, "setting a non existent .lex should throw")
+    ok(0, "setting a nonexistent .lex should throw")
     goto end
 eh:
     pop_eh
-    ok(1, "setting a non existent .lex throws")
+    ok(1, "setting a nonexistent .lex throws")
 end:
 .end
 
@@ -143,7 +143,7 @@ iter_done:
     pad = pad['lexpad']
 
     type = pad.'register_type'('?')
-    is(type, -1, 'type for non-existent lexical')
+    is(type, -1, 'type for nonexistent lexical')
     type = pad.'register_type'('I')
     is(type,  0, 'type for integer lexical')
     type = pad.'register_type'('N')

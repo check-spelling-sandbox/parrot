@@ -99,7 +99,7 @@ HAS_IPV6, see GH #1068.
 .end
 CODE
 
-    lives_ok(<<'CODE', "non-existent protocol name does not coredump")
+    lives_ok(<<'CODE', "nonexistent protocol name does not coredump")
 .sub main
     new $P0, ['Socket']
     $I0 = $P0.'getprotobyname'("junk")

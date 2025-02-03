@@ -294,7 +294,7 @@ Although NameSpace.'export_to'() is used in test_more.pir.
     pop_eh
 
   test4:
-    throws_substring( <<'CODE', 'Null PMC access in invoke', 'Invoking a non-existent sub')
+    throws_substring( <<'CODE', 'Null PMC access in invoke', 'Invoking a nonexistent sub')
         .sub main :main
             $P0 = get_global ["Foo"], "SUB_THAT_DOES_NOT_EXIST"
             $P0()
@@ -303,7 +303,7 @@ CODE
 
   test5:
     # this used to behave differently from the previous case.
-    throws_substring( <<'CODE', 'Null PMC access in invoke', 'Invoking a non-existent sub')
+    throws_substring( <<'CODE', 'Null PMC access in invoke', 'Invoking a nonexistent sub')
         .sub main :main
             $P0 = get_global ["Foo";"Bar"], "SUB_THAT_DOES_NOT_EXIST"
             $P0()

@@ -259,7 +259,7 @@ imc_free_unit(ARGMOD(imc_info_t * imcc), ARGMOD(IMC_Unit *unit))
     clear_basic_blocks(unit);
 
     if (!imcc->n_comp_units)
-        IMCC_fatal(imcc, 1, "imc_free_unit: non existent unit\n");
+        IMCC_fatal(imcc, 1, "imc_free_unit: nonexistent unit\n");
 
     imcc->n_comp_units--;
 

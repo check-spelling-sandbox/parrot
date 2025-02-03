@@ -83,7 +83,7 @@ This PIR code implements various oplib tests.
     $P0 = new ['OpLib'], $P0
     $I1 = $P0[TESTED_NOSUCHOP]
     $I0 = iseq $I1, -1
-    ok($I0, "get non existent opcode fails")
+    ok($I0, "get nonexistent opcode fails")
 .end
 
 .sub getop_end
@@ -135,7 +135,7 @@ done:
     $P0 = new ['OpLib'], $P0
     $P1 = $P0.'op_family'(TESTED_NOSUCHOP)
     $I0 = isnull $P1
-    ok($I0, "non existent opcode family is null")
+    ok($I0, "nonexistent opcode family is null")
 .end
 
 # Local Variables:

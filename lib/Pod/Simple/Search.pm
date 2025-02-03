@@ -92,7 +92,7 @@ sub survey {
     }
   
     unless(-e $start_in) {
-      $verbose and print "Skipping non-existent $start_in\n";
+      $verbose and print "Skipping nonexistent $start_in\n";
       next;
     }
 

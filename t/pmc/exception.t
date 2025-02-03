@@ -183,7 +183,7 @@ Tests C<Exception> and C<ExceptionHandler> PMCs.
     .get_results($P0)
     finalize $P0
   done:
-    ok($I0, "Can't fetch non-existent attribute")
+    ok($I0, "Can't fetch nonexistent attribute")
 .end
 
 .sub test_attributes

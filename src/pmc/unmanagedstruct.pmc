@@ -202,7 +202,7 @@ char_offset_int(PARROT_INTERP, ARGIN(PMC *pmc), INTVAL ix, ARGOUT(int *type))
 
     if ((size_t)ix >= n)
         Parrot_ex_throw_from_c_args(interp, NULL, EXCEPTION_UNEXPECTED_NULL,
-            "Non existent elements in struct ix = %d n=%d", (int)ix, (int)n);
+            "Nonexistent elements in struct ix = %d n=%d", (int)ix, (int)n);
 
     /* use structure init */
     *type = (int) VTABLE_get_integer_keyed_int(interp,
@@ -361,7 +361,7 @@ char_offset_key(PARROT_INTERP, ARGIN(PMC *pmc), ARGIN(PMC *key), ARGOUT(int *typ
 
     if (count >= max)
         Parrot_ex_throw_from_c_args(interp, NULL, EXCEPTION_OUT_OF_BOUNDS,
-            "Non existent array element in struct: "
+            "Nonexistent array element in struct: "
             "count = %d max=%d", (int)count, (int)max);
 
     size = data_types[*type - enum_first_type].size;

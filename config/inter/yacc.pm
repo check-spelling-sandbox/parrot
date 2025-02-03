@@ -59,7 +59,7 @@ sub runstep {
         $prog = $ENV{ uc($util) };
     }
 
-    # never override the user.  If a non-existent program is specified then
+    # never override the user.  If a nonexistent program is specified then
     # the user is responsible for the consequences.
     if ( defined $prog ) {
         $conf->data->set( $util => $prog );

@@ -1057,7 +1057,7 @@ Call the method specified in the string name $S1, or in the Sub object $P2,
 using $P1 as the invocant for method lookup and generate a new return
 continuation.
 
-Throws an exception for a non-existent method.
+Throws an exception for a nonexistent method.
 
 =item callmethodsupercc [hypothetical, 2.0 or later]
 

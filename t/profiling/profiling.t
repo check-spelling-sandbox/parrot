@@ -46,12 +46,12 @@ $matcher := ProfTest::Matcher.new(
 
 ok( $matcher.matches($prof), "profile has canonical timing information");
 
-#Does the matcher fail to find the non-existent 'lollercoaster' opcode?
+#Does the matcher fail to find the nonexistent 'lollercoaster' opcode?
 $matcher := ProfTest::Matcher.new(
     op('lollercoaster')
 );
 
-ok( !$matcher.matches($prof), "matcher didn't find non-existent opcode");
+ok( !$matcher.matches($prof), "matcher didn't find nonexistent opcode");
 
 #Does the profile show a 'say' op inside the 'main' sub?
 $matcher := ProfTest::Matcher.new(

@@ -1567,7 +1567,7 @@ C<prophash>X<prophash opcode>:
 
 =end PIR_FRAGMENT
 
-Fetching the value of a non-existent property returns an C<Undef> PMC.
+Fetching the value of a nonexistent property returns an C<Undef> PMC.
 
 =head3 Vtable Functions
 
