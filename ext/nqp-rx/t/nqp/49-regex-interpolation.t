@@ -28,8 +28,8 @@ ok(!("ac+d" ~~ /a <@foo> d/),   'array assertion interpolates as alternations of
 ok("abbbbbd" ~~ /a <@foo> d/, 'array assertion interpolates as alternations of regexen 3');
 ok("acccccd" ~~ /a <@foo> d/, 'array assertion interpolates as alternations of regexen 4');
 
-ok(!("ab+d" ~~ /a <{ "b+" }> d/), 'code assersion interpolates as regex 1');
-ok("abbbbd" ~~ /a <{ "b+" }> d/, 'code assersion interpolates as regex 2');
+ok(!("ab+d" ~~ /a <{ "b+" }> d/), 'code assertion interpolates as regex 1');
+ok("abbbbd" ~~ /a <{ "b+" }> d/, 'code assertion interpolates as regex 2');
 
 ok("abbbbd" ~~ /a <{ ["b+", "c+"] }> d/, 'code assertion that returns array interpolates as alternations of regexen 1');
 ok("accccd" ~~ /a <{ ["b+", "c+"] }> d/, 'code assertion that returns array interpolates as alternations of regexen 2');
