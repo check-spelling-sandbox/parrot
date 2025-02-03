@@ -542,7 +542,7 @@ of the packfile structure and assigns that copy to the new PackfileView PMC.
 
 =cut
 
-=head2 Auxliary functions
+=head2 Auxiliary functions
 
 =over 4
 
