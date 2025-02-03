@@ -1204,11 +1204,11 @@ lp:
 
     $S0 = concat $S0, "b"
     set $S1, $P0[$S0]
-    is( $S1, "two", 'lookup via concated str in reg' )
+    is( $S1, "two", 'lookup via concatenated str in reg' )
 
     $S0 = concat $S0, "c"
     set $S1, $P0[$S0]
-    is( $S1, "three", 'lookup via concated^2 str in reg' )
+    is( $S1, "three", 'lookup via concatenated^2 str in reg' )
 .end
 
 .sub check_whether_interface_is_done
