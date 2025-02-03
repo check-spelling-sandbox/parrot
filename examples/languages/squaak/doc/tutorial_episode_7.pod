@@ -320,7 +320,7 @@ Hint: a floating-point constant should produce a value of type 'Float'.
 
 Note: in Perl 6 regexes, when matching an alternation as in a proto rule, the alternative which
 matches the most of the string is supposed to match. However, NQP-rx does not yet implement this. As
-a work-around, NQP-rx specifies that the version of a proto regex with the longest name will match.
+a workaround, NQP-rx specifies that the version of a proto regex with the longest name will match.
 Since the part of a floating-point constant before the decimal place is the same as an integer
 constant, unless the token for floating-point constants has a longer name than the token for
 integer-constants, the latter will match and a syntax error will result.
@@ -352,7 +352,7 @@ Hint: a floating-point constant should produce a value of type 'Float'.
 
 Note: in Perl 6 regexes, when matching an alternation as in a proto rule, the alternative which
 matches the most of the string is supposed to match. However, NQP-rx does not yet implement this. As
-a work-around, NQP-rx specifies that the version of a proto regex with the longest name will match.
+a workaround, NQP-rx specifies that the version of a proto regex with the longest name will match.
 Since the part of a floating-point constant before the decimal place is the same as an integer
 constant, unless the token for floating-point constants has a longer name than the token for
 integer-constants, the latter will match and a syntax error will result.
