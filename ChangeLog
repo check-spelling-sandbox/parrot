@@ -7552,7 +7552,7 @@
 2001-12-31 05:09  grunblatt
 
     * Configure.pl, Makefile.in, interpreter.c: Link jit.o only on
-    supported plataforms
+    supported platforms
 
 2001-12-31 03:05  dan
 
