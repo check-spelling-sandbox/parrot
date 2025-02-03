@@ -9,7 +9,7 @@ Parrot Subroutines
 =head1 ABSTRACT
 
 This document describes how to define, call, and return from Parrot subroutine
-objects and other invokables.
+objects and other invocables.
 
 =head1 DESCRIPTION
 
